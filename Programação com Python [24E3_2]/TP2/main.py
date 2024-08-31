@@ -11,7 +11,9 @@ def run(files):
         print(f"Executando {pyfile} ...")
         print()
         try:
-            os.system(f"python {pyfile}")
+            caminho_pasta = os.path.join(os.path.dirname(__file__), "questoes")
+            comando = f'python "{os.path.join(caminho_pasta, pyfile)}"'
+            os.system(comando)
         except Exception as e:
             print(f"Erro ao executar o script {pyfile}: {e}")
         print()
