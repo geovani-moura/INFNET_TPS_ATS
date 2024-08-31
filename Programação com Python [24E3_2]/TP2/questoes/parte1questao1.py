@@ -1,5 +1,8 @@
 ﻿print(
-    "Parte 1 | Questão 1: Crie um programa que receba uma string como entrada do usuário e use um loop for para criar uma lista com cada caractere da string."
+    """
+    Parte 1 | Questão 1: 
+    Crie um programa que receba uma string como entrada do usuário e use um loop for para criar uma lista com cada caractere da string.
+    """
 )
 print()
 
