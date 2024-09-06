@@ -1,26 +1,32 @@
 DROP TABLE IF EXISTS Customers;
 DROP TABLE IF EXISTS Orders;
 DROP TABLE IF EXISTS Shippings;
+DROP TABLE IF EXISTS teams;
 
 CREATE TABLE "teams" (
-  "FIFA Ranking" bigint,
-  "Team" text,
-  "Total Points" double precision,
-  "Previous Points" double precision,
-  "Change in Points" double precision,
-  "Base Camp" text,
-  "Training Ground" text,
-  "Qualified as" text,
-  "Previous appearances" bigint,
-  "Manager Name" text,
-  "Installation (in years)" bigint,
-  "Group" text,
-  "Average Age" double precision,
-  "Captain" text,
-  "Recent Form" text
+  "fifa_ranking" integer,
+  "team" nvarchar(100),
+  "total_points" double precision,
+  "previous_points" double precision,
+  "change_in_points" double precision,
+  "base_camp" nvarchar(100),
+  "training_ground" nvarchar(100),
+  "qualified_as" nvarchar(100),
+  "previous_appearances" integer,
+  "manager_name" nvarchar(100),
+  "installation_years" integer,
+  "group" nvarchar(10),
+  "average_age" double precision,
+  "captain" nvarchar(100),
+  "recent_form" nvarchar(50)
 );
 
-INSERT INTO "teams" ("FIFA Ranking","Team","Total Points","Previous Points","Change in Points","Base Camp","Training Ground","Qualified as","Previous appearances","Manager Name","Installation (in years)","Group","Average Age","Captain","Recent Form")
+INSERT INTO "teams" (
+  "fifa_ranking", "team", "total_points", "previous_points", "change_in_points", 
+  "base_camp", "training_ground", "qualified_as", "previous_appearances", 
+  "manager_name", "installation_years", "group", "average_age", "captain", 
+  "recent_form"
+)
 VALUES
 (2,'France',1837.47,1840.59,-3.12,'Bad Lippspringe','Home Deluxe Arena','Group B winner',10,'Didier Deschamps',11,'Group D',26.9,'Kylian Mbappe','W-L-W-W-W-D-L-W-W-D'),
 (3,'Belgium',1797.98,1795.23,2.75,'Ludwigsburg','Wasenstadion, SGV Freiberg am Neckar','Group F winner',6,'Domenico Tedesco',1,'Group E',26.9,'Kevin De Bruyne','W-W-W-D-W-W-D-D-W-W'),
