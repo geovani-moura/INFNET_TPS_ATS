@@ -1,0 +1,8 @@
+SELECT 
+	Nome,
+	Andar
+FROM TB_DEPARTAMENTO
+WHERE Andar % 2 <> 0
+	AND Nome LIKE '%E%'
+ORDER BY 
+	Nome;
