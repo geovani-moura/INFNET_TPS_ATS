@@ -18,7 +18,6 @@ Monitor AOC;212;7;700.00;1100.00
 """
 
 estoque = []
-ordem_estoque = 'id'
 
 def obter_new_id():
     """
@@ -52,50 +51,80 @@ def inicializa_estoque():
 # Executa a inicialização de estoque
 inicializa_estoque()
 
-def redirecionando():
-    """
-    Exibe uma mensagem de "Redirecionando" com pontos animados para indicar espera.
-    """
-    mensagem = "Redirecionando"
-    print(mensagem, end="", flush=True)
-    for i in range(5):
-        time.sleep(1)
-        print(".", end="", flush=True)
-    print()
-
 def limpar_tela():
     """
-    Limpa a tela do terminal.
+    Pula varias linhas para dar a impresão de ter limpado o console
     """
-    os.system('cls' if os.name == 'nt' else 'clear')
+    for i in range(30):
+        print()
 
-def mostrar_estoque():
+def mostrar_estoque(ordem, crescente=True, busca_id=None, busca_descricao=None):
     """
-    Exibe todo o estoque cadastrado com seus detalhes.
+    Exibe todo o estoque cadastrado com seus detalhes, ordenado por um atributo específico.
+    Permite filtrar a listagem por ID ou descrição.
+    
+    Parâmetros:
+    - ordem: O atributo pelo qual o estoque será ordenado (ex: 'quantidade').
+    - crescente: Define se a ordenação será crescente (True) ou decrescente (False).
+    - busca_id: Se informado, busca por um item com o ID correspondente.
+    - busca_descricao: Se informado, busca por itens que contenham a descrição.
     """
     print("========= Listagem de Estoque =========")
+    
     if len(estoque) < 1:
-        print(">>>>> Não há produtos cadastradas! <<<<<")
+        print(">>>>> Não há produtos cadastrados! <<<<<")
     else:
-        for item in sorted(estoque, key=lambda x: getattr(x, ordem_estoque)):
-            print(f"{item.id} | "
-                  f"{item.descricao} | "
-                  f"{item.quantidade} | "
-                  f"R$ {item.preco_compra_item} | "
-                  f"R$ {item.preco_venda_item} ")
+        estoque_filtrado = estoque
+        
+        # Filtrar pelo ID se fornecido
+        if busca_id is not None:
+            estoque_filtrado = [item for item in estoque_filtrado if item.id == busca_id]
+        
+        # Filtrar pela descrição se fornecido
+        if busca_descricao:
+            estoque_filtrado = [item for item in estoque_filtrado if busca_descricao.lower() in item.descricao.lower()]
+
+        # Verificar se há resultados após a busca
+        if len(estoque_filtrado) == 0:
+            print(">>>>> Nenhum produto encontrado com o critério de busca informado. <<<<<")
+        else:
+            # Ordena e exibe o estoque filtrado
+            for item in sorted(estoque_filtrado, key=lambda x: getattr(x, ordem), reverse=not crescente):
+                print(f"{item.id} | "
+                      f"{item.descricao} | "
+                      f"{item.quantidade} | "
+                      f"R$ {item.preco_compra_item} | "
+                      f"R$ {item.preco_venda_item} ")
+    
     print("=======================================")
+
+
+
 
 def mostrar_opcoes():
     """
     Exibe as opções disponíveis para o usuário.
     """
+    print("=======================================")
     print("========== Ações disponíveis ==========")    
-    print(f"\n1 - Adicionar Produto")
+    print("=======================================")
+    print(">>>>>>>>>> Listagens e Buscas <<<<<<<<<<")
+    print()
+    print(f"0 - Listar Produtos")
+    print(f"1 - Listar Produtos por Quantidade Crescente")
+    print(f"2 - Listar Produtos por Quantidade Decrescente")
+    print(f"3 - Buscar por codigo do Produtos")
+    print(f"4 - Buscar por Descrição do Produtos")
+    print()
+    print(">>>>>>>>>> Cadastro e Alterações <<<<<<<<<<")
+    print()
+    print(f"10 - Cadastrar Produtos")
+
     if len(estoque) > 0:
-        print(f"\n2 - Excluir tarefa")
-        print(f"\n3 - Mudar status")
-        print(f"\n4 - Mudar prioridade")
-    print(f"\n5 - Sair")
+        print(f"\n4 - Excluir tarefa")
+        print(f"\n5 - Mudar status")
+        print(f"\n6 - Mudar prioridade")
+    print(f"\n99 - Sair")
     print("=======================================")
 
 def escolha_opcao():
@@ -111,6 +140,24 @@ def escolha_opcao():
         return 0
     return int(entrada)
 
+def obter_id():
+    """
+    Solicita e retorna o ID do produto informado pelo usuário, convertido para inteiro.
+    """
+    try:
+        return int(input("Informe o ID do produto: "))
+    except ValueError:
+        print("ID inválido! Por favor, insira um número válido.")
+        return None
+
+
+def obter_descricao():
+    """
+    Solicita e retorna a descrição do produto informada pelo usuário.
+    """
+    return input("Informe a descrição ou parte dela: ")
+
+
 def adicionar_produto():
     """
     Adiciona uma nova tarefa à lista de tarefas com base na entrada do usuário.
@@ -123,21 +170,47 @@ def adicionar_produto():
     produto = Produto(codigo, descricao, quantidade, preco_compra_item, preco_venda_item)
     estoque.append(produto)
 
+def mostrar_menu():
+    """
+    Exibe o menu principal e processa a opção escolhida pelo usuário.
+    """
+    mostrar_opcoes()
+    opcao = escolha_opcao()
+    return opcao
 
 def menu():
     """
     Exibe o menu principal e processa a opção escolhida pelo usuário.
     """
-    limpar_tela()
-    mostrar_estoque()
-    mostrar_opcoes()
-    opcao = escolha_opcao()
+    # Listagens e Buscas
+    opcao = mostrar_menu()
     if opcao == 0:
+        limpar_tela()
+        mostrar_estoque('id', 1)
         menu()
     elif opcao == 1:
-        adicionar_produto()
-        redirecionando()
+        limpar_tela()
+        mostrar_estoque('quantidade', 1)
+        menu()
+    elif opcao == 2:
+        limpar_tela()
+        mostrar_estoque('quantidade', 0)
+        menu()
+    elif opcao == 3:
+        limpar_tela()
+        id1 = obter_id()
+        mostrar_estoque('id', 1, busca_id = id1)
+        menu()
+    elif opcao == 4:
+        limpar_tela()
+        descricao = obter_descricao()
+        mostrar_estoque('id', 1, busca_descricao = descricao)
         menu()
 
-limpar_tela()
+    # Cadastro e Alterações
+    elif opcao == 10:
+        limpar_tela()
+        adicionar_produto()
+        menu()
+
 menu()
