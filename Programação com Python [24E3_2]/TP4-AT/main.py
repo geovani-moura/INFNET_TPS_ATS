@@ -131,10 +131,13 @@ def mostrar_opcoes():
 # Obter
 def obter_new_id():
     """
-    Retorna o maior ID das tarefas na lista.
+    Retorna o próximo ID disponível para um novo produto.
+    
+    A função verifica a lista de produtos e retorna o maior ID existente mais um. 
+    Se a lista estiver vazia, retorna 0.
 
     Returns:
-        int: O maior ID ou 0 se a lista estiver vazia.
+        int: O próximo ID disponível ou 0 se a lista estiver vazia.
     """
     retorno = 0
     if not estoque:
@@ -144,7 +147,9 @@ def obter_new_id():
 
 def obter_produto():
     """
-    Solicita ao usuário que insira o ID de um produto.
+    Solicita ao usuário que insira o ID de um produto e retorna esse ID.
+    
+    A entrada do usuário é convertida para um número inteiro.
 
     Returns:
         int: ID do produto inserido pelo usuário.
@@ -153,21 +158,27 @@ def obter_produto():
 
 def obter_descricao():
     """
-    Solicita e retorna a descrição do produto informada pelo usuário.
+    Solicita e retorna a descrição de um produto informada pelo usuário.
+    
+    O usuário pode inserir uma descrição completa ou apenas parte dela.
+
+    Returns:
+        str: Descrição do produto informada pelo usuário.
     """
     return input("Informe a descrição ou parte dela: ")
 
 def obter_minimo_quantidade_produto():
     """
-    Solicita ao usuário que insira a quantidade mínima para buscar o produto.
-    Se o usuário não inserir nada, retorna o valor padrão (5).
+    Solicita ao usuário que insira a quantidade mínima de produtos a serem buscados.
     
+    Se o usuário não inserir nada, a função retorna o valor padrão de 5. 
+    Se a entrada não for um número válido, retorna o valor padrão.
+
     Returns:
-        int: Quantidade mínima em estoque.
+        int: Quantidade mínima em estoque ou o valor padrão se a entrada for inválida.
     """
     entrada = input("Digite a quantidade mínima [Padrão 5]: ").strip()
     
-    # Se o usuário não inserir nada, retorna o valor padrão 5
     if entrada == "":
         return 5
     
@@ -179,7 +190,9 @@ def obter_minimo_quantidade_produto():
 
 def obter_opcao_menu():
     """
-    Solicita ao usuário que escolha uma opção do menu.
+    Solicita ao usuário que escolha uma opção do menu e retorna a opção escolhida.
+    
+    Se o usuário não inserir nada, a função retorna 0.
 
     Returns:
         int: Opção escolhida pelo usuário do menu.
@@ -193,6 +206,12 @@ def obter_opcao_menu():
 def obter_menu():
     """
     Exibe o menu principal e processa a opção escolhida pelo usuário.
+    
+    A função chama mostrar_opcoes() para exibir as opções e obtém a escolha do usuário 
+    através da função obter_opcao_menu().
+
+    Returns:
+        int: A opção escolhida pelo usuário do menu.
     """
     mostrar_opcoes()
     opcao = obter_opcao_menu()
@@ -209,10 +228,10 @@ def obter_quantidade():
 
 def obter_preco():
     """
-    Solicita ao usuário um preco.
+    Solicita ao usuário um preço.
 
     Returns:
-        decimal: Quantidade de um produto.
+        decimal: Preço do produto.
     """
     return input("Digite o preco: ")
 
