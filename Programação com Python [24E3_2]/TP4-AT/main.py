@@ -4,20 +4,7 @@ from decimal import Decimal
 import time
 
 # Variaveis
-estoque_inicial = """
-Notebook Dell;201;15;3200.00;4500.00#
-Notebook Lenovo;202;10;2800.00;4200.00#
-Mouse Logitech;203;50;70.00;150.00#
-Mouse Razer;204;40;120.00;250.00#
-Monitor Samsung;205;10;800.00;1200.00#
-Monitor LG;206;8;750.00;1150.00#
-Teclado Mecânico Corsair;207;30;180.00;300.00#
-Teclado Mecânico Razer;208;25;200.00;350.00#
-Impressora HP;209;5;400.00;650.00#
-Impressora Epson;210;3;450.00;700.00#
-Monitor Dell;211;12;850.00;1250.00#
-Monitor AOC;212;7;700.00;1100.00
-"""
+estoque_inicial = "Notebook Dell;201;15;3200.00;4500.00#Notebook Lenovo;202;10;2800.00;4200.00#Mouse Logitech;203;50;70.00;150.00#Mouse Razer;204;40;120.00;250.00#Monitor Samsung;205;10;800.00;1200.00#Monitor LG;206;8;750.00;1150.00#Teclado Mecânico Corsair;207;30;180.00;300.00#Teclado Mecânico Razer;208;25;200.00;350.00#Impressora HP;209;5;400.00;650.00#Impressora Epson;210;3;450.00;700.00#Monitor Dell;211;12;850.00;1250.00#Monitor AOC;212;7;700.00;1100.00"
 
 estoque = []
 
@@ -35,22 +22,32 @@ def limpar_tela():
     """
     Pula varias linhas para dar a impresão de ter limpado o console
     """
-    for i in range(30):
+    for i in range(50):
         print()
 
 # Mostrar
 def mostrar_estoque(ordem, crescente=True, busca_id=None, busca_descricao=None, busca_esgotado=None, busca_min_quantidade=None):
     """
-    Exibe todo o estoque cadastrado com seus detalhes, ordenado por um atributo específico.
-    Permite filtrar a listagem por ID ou descrição.
-    
+    Exibe o estoque de produtos cadastrados com seus detalhes, permitindo ordenar e filtrar os itens com base em diferentes critérios.
+
     Parâmetros:
-    - ordem: O atributo pelo qual o estoque será ordenado (ex: 'quantidade').
-    - crescente: Define se a ordenação será crescente (True) ou decrescente (False).
-    - busca_id: Se informado, busca por um item com o ID correspondente.
-    - busca_descricao: Se informado, busca por itens que contenham a descrição.
+    - ordem (str): O atributo pelo qual os produtos serão ordenados (ex: 'quantidade', 'preco_venda_item').
+    - crescente (bool): Define se a ordenação será crescente (True) ou decrescente (False). Padrão é crescente.
+    - busca_id (int, opcional): Se fornecido, exibe apenas o produto com o ID correspondente.
+    - busca_descricao (str, opcional): Se fornecido, exibe produtos que contenham a descrição especificada.
+    - busca_esgotado (bool, opcional): Se True, exibe apenas produtos cujo estoque está esgotado (quantidade <= 0).
+    - busca_min_quantidade (int, opcional): Se fornecido, exibe produtos com quantidade menor ou igual ao valor especificado.
+
+    Funcionalidade:
+    - Filtra a lista de produtos conforme os critérios fornecidos, como ID, descrição, estoque esgotado ou quantidade mínima.
+    - Ordena os produtos com base no atributo especificado e na ordem (crescente ou decrescente).
+    - Exibe uma tabela formatada com os detalhes do produto (ID, descrição, quantidade, preço de custo, preço de venda).
+
+    Validações:
+    - Se nenhum produto for encontrado com os filtros aplicados, uma mensagem de erro é exibida.
+    - Se não houver produtos no estoque, informa que o estoque está vazio.
     """
-    print("===================================== Listagem de Estoque =====================================")
+    print("=" * 37 + " Listagem de Estoque " + "=" * 37)
     
     if len(estoque) < 1:
         print(">>>>> Não há produtos cadastrados! <<<<<")
@@ -270,22 +267,22 @@ def obter_relatorio_estoque():
     """
     Gera e exibe um relatório completo do estoque com detalhes dos produtos.
     """
-    print("========= Relatório Geral do Estoque =========")
+    print("=" * 32 + " Relatório Geral do Estoque " + "=" * 32)
     print("Código".ljust(10) + "Descrição".ljust(25) + "Quantidade".ljust(12) + 
-          "Custo".rjust(12) + "Preço".rjust(12) + "Valor Total".rjust(12))
-    print("=" * 88)  # Linha separadora
+          "Custo".rjust(15) + "Preço".rjust(15) + "Valor Total".rjust(15))
+    print("=" * 92)  # Linha separadora
 
     for produto in estoque:
         valor_total = produto.quantidade * produto.preco_venda_item
         linha = (str(produto.id).ljust(10) +
                  produto.descricao.ljust(25) +
                  str(produto.quantidade).ljust(12) +
-                 f"R$ {produto.preco_compra_item:.2f}".rjust(12) +
-                 f"R$ {produto.preco_venda_item:.2f}".rjust(12) +
-                 f"R$ {valor_total:.2f}".rjust(12))
+                 f"R$ {produto.preco_compra_item:.2f}".rjust(15) +
+                 f"R$ {produto.preco_venda_item:.2f}".rjust(15) +
+                 f"R$ {valor_total:.2f}".rjust(15))
         print(linha)
 
-    print("==============================================")
+    print("=" * 92)
 
 # Excluir
 def excluir_produto():
@@ -303,7 +300,17 @@ def excluir_produto():
 # Adicionar
 def adicionar_produto():
     """
-    Adiciona uma nova tarefa à lista de tarefas com base na entrada do usuário.
+    Adiciona um novo produto ao estoque com base nas informações fornecidas pelo usuário.
+
+    O usuário é solicitado a inserir a descrição, quantidade, preço de compra e preço de venda do produto.
+    Um novo objeto de produto é criado e adicionado à lista de estoque, o ID ou Codigo é grado automaticamente, pegando o 
+    max id da lista e somando +1
+
+    Inputs:
+        - Descrição do produto (str)
+        - Quantidade do produto (int)
+        - Preço de compra do produto (Decimal)
+        - Preço de venda do produto (Decimal)
     """
     codigo = None
     descricao = input("Digite a descrição da produto: ")
@@ -320,7 +327,7 @@ def alterar_preco():
     seja menor que o preço de custo.
     """
     codigo = obter_produto()   
-    preco = obter_preco()
+    preco = Decimal(obter_preco())
 
     for produto in estoque:
         if produto.id == codigo:
@@ -361,7 +368,7 @@ def inicializa_estoque():
             estoque.append(produto)
 
 def voltar_menu():
-    input("Precione enter ou qualquer tecla para voltar ao menu...")
+    input("Pressione enter ou qualquer tecla para voltar ao menu...")
     limpar_tela()
     menu()
 
@@ -438,7 +445,7 @@ def menu():
         voltar_menu()
     elif opcao == 22:
         limpar_tela()
-        lucro = obter_relatorio_estoque()
+        obter_relatorio_estoque()
         voltar_menu()
 
     elif opcao == 99:
