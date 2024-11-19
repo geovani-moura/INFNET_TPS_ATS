@@ -1,0 +1,9 @@
+Nome|Idade|Localização(Cidade, Estado)|Amigos(Lista)|ID|Email|DataDeNascimento|Hobbies|Coding|Jogos(Nome, Plataforma)|ano_nascimento
+AnaBarbosa|45|['Juiz de Fora', '']||cc06309be982434b8eef8c8e4dc7744b|ana7n@mailservice.com|1979-06-11|['ciclismo', 'fotografia']|['C++', 'PHP', 'Ruby', 'Go', 'C#']|[['Overwatch', 'PC'], ['Apex Legends', 'PC'], ['Minecraft', 'PC']]|1979
+CarlosRocha|48|['São Paulo', '']||41e598ad0dfa4903a2cebbdcf78e3444|carlosc@randommail.com|1976-09-03|['viagem', 'leitura', 'ciclismo']|['Python', 'Kotlin', 'C++', 'Ruby']|[['League of Legends', 'PC'], ['The Witcher 3', 'Xbox One']]|1976
+GuilhermeCosta Dias|44|['', '']||a75baddb8e3046979aeb560741bf55bc|guilhermeoj@inbox.org|1980-06-21|[]|['Swift', 'Java', 'JavaScript', 'Ruby', 'PHP']|[['Apex Legends', 'PC'], ['Cyberpunk 2077', 'PC'], ['Overwatch', 'PC']]|1980
+GuilhermeMoraes Souza Santos|33|['Rio de Janeiro', '']||98808f8d1a1947c0a175d15f231621e2|guilherme84d@webmail.net|1991-03-25|[]|['C#', 'Java', 'Python']|[['GTA V', 'PlayStation 4'], ['Apex Legends', 'PC'], ['Overwatch', 'PC'], ['Among Us', 'Mobile']]|1991
+CamilaGomes Dias Moraes|38|['Manaus', '']||65bf61fcc89d481b934fc0647a772d3d|camilabh@fastmail.com|1986-07-05|['ciclismo', 'leitura', 'cozinhar']|['Java', 'Ruby']|[['The Witcher 3', 'Xbox One']]|1986
+GuilhermeDias Fernandes|41|['', '']||48e10a7957f34a16988ff30a9000f972|guilhermecl@fastmail.com|1983-03-19|['fotografia', 'natação', 'música', 'viagem']|['Python', 'Kotlin', 'PHP', 'C++', 'Swift']|[['Overwatch', 'PC']]|1983
+MarianaAlmeida Silva|29|['', '']||69495d2a0df94f209076e3a8e87eaf39|mariana1@mail.com|1995-11-22|['música', 'viagem']|['Java', 'C#']|[['The Witcher 3', 'Xbox One']]|1995
+AnaBarbosa|45|['Juiz de Fora', '']||ca20dc3f93fc466cad0eab665a1c9b90|ana7n@mailservice.com|1979-06-11|['ciclismo', 'fotografia']|['C++', 'PHP', 'Ruby', 'Go', 'C#']|[['Overwatch', 'PC'], ['Apex Legends', 'PC'], ['Minecraft', 'PC']]|1979

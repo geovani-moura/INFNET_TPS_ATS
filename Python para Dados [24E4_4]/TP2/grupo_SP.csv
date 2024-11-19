@@ -1,0 +1,30 @@
+Nome|Idade|Localização(Cidade, Estado)|Amigos(Lista)|ID|Email|DataDeNascimento|Hobbies|Coding|Jogos(Nome, Plataforma)|ano_nascimento
+Maria da Silva|45|['São Paulo', 'SP']||4a9f37b2643a45b9ae99c54c055d7219||||||1979
+José Santos|52|['São Paulo', 'SP']||8b291303b1b74eb78d26ce447c2ea55c||||||1972
+Ana Oliveira|28|['São Paulo', 'SP']||4afcbbf249fb4f43b32304be012f9bb7||||||1996
+João Pereira|33|['São Paulo', 'SP']||dc8ca30814cd4879b813649b5edcc763||||||1991
+Carlos Sousa|40|['São Paulo', 'SP']||4bf0c4205fce4878888e816ad5932bd3||||||1984
+Ana|22|['São Paulo', 'SP']|['João', 'Fernanda']|d2cf1935e54941e0a8c1cda0d15cd293||||||2002
+Lívia|24|['São Paulo', 'SP']|['Clara', 'Lucas', 'Marcos']|436e82e2ca404d65be0627c8e97e0c43||||||2000
+Sofia|21|['Campinas', 'SP']|['Rafaela', 'Fernanda']|0e30a85415c44a5f9d1c66d0e4a0c0b2||||||2003
+Juliana|25|['São Paulo', 'SP']|['Rafaela', 'Sofia', 'Marcos']|e3e94942d4b94831b751011b3a1bdf5e||||||1999
+Thiago|31|['São Paulo', 'SP']|['João', 'Amanda', 'Lucas', 'Clara']|981de556a5a141eb9fdf1ec14ff1e1dc||||||1993
+Leonardo|29|['Campinas', 'SP']|['Renata', 'Mateus', 'Caio']|8666b1fe4a854763830fd5029c0d38a5||||||1995
+FernandaGomes|19|['Campinas', 'SP']||190cc198111e49eb8a27ecdb53d025dc|fernanda29h@inbox.org|Dec 10, 1999|['fotografia', 'cozinhar', 'futebol']|[]|[['GTA V', 'PlayStation 4'], ['Valorant', 'PC'], ['Fortnite', 'PlayStation 4'], ['Minecraft', 'PC'], ['The Witcher 3', 'Xbox One']]|2005
+LuísCosta Fernandes|26|['Campinas', 'SP']||34746d88522e49019f4984aeb3162928|luísy8x@mailservice.com|1998-08-18|['natação', 'viagem', 'cinema', 'ciclismo', 'cozinhar']|['PHP', 'Java', 'Python']|[['The Witcher 3', 'Xbox One'], ['GTA V', 'PlayStation 4'], ['League of Legends', 'PC'], ['Apex Legends', 'PC'], ['Minecraft', 'PC']]|1998
+BrunoPereira|43|['Campinas', 'SP']||0dc56591c6154ac5bdc120ac72df9fcb|bruno8@randommail.com|1981-04-14|['música', 'cozinhar', 'cinema']|['Swift', 'Python', 'Ruby', 'Go', 'Java']|[['Cyberpunk 2077', 'PC'], ['Among Us', 'Mobile'], ['Valorant', 'PC'], ['Overwatch', 'PC'], ['League of Legends', 'PC']]|1981
+LucasSouza Almeida|45|['São Paulo', 'SP']||af20af1956da4a71b95fb4d9c3d42a77|lucas5@randommail.com|1979-08-03|['música', 'viagem', 'cinema', 'natação', 'fotografia']|['C#', 'C++']|[['Cyberpunk 2077', 'PC'], ['Valorant', 'PC'], ['League of Legends', 'PC'], ['GTA V', 'PlayStation 4'], ['Overwatch', 'PC']]|1979
+RafaelCarvalho|27|['São Paulo', 'SP']||803061006d124878b91f09a3d30ca848|rafaelpc4@freemail.com|1997-01-06|['pintura']|['PHP']|[['The Witcher 3', 'Xbox One'], ['Overwatch', 'PC']]|1997
+LucasCarvalho Santos Fernandes|25|['São Paulo', 'SP']||fc1c2dc67a4c483883031eaf0ea13ced|lucas8qn@example.com|1999-09-04|['música']|['Swift', 'PHP', 'JavaScript']|[['Among Us', 'Mobile'], ['League of Legends', 'PC'], ['The Witcher 3', 'Xbox One'], ['Overwatch', 'PC']]|1999
+PedroAlmeida|18|['Campinas', 'SP']||903f572e61c44a48862a1abbef04a1ed|pedro9@randommail.com|2006-05-04|['música', 'cozinhar', 'fotografia', 'viagem', 'natação']|['C#', 'JavaScript', 'PHP']|[]|2006
+LucasDias Martins Lima|30|['São Paulo', 'SP']||bbd24e833cad49af991fe00f2e542646|lucaso0p@freemail.com|1994-05-21|['viagem', 'leitura', 'cozinhar', 'futebol']|['C#', 'Go', 'Java']|[]|1994
+LuísRibeiro Lima Rodrigues|30|['São Paulo', 'SP']||449f47b627ed465584440e2ad5f83308|luísu@mailservice.com|1993-11-14|['leitura', 'ciclismo', 'futebol', 'fotografia']|['C#', 'PHP', 'Go', 'Python', 'JavaScript']|[['Apex Legends', 'PC'], ['Valorant', 'PC']]|1994
+CamilaPereira Martins Rodrigues|24|['Campinas', 'SP']||880d13b398c041e7b052afaceb705c83|camila9x@mailservice.com|2000-01-06|[]|['JavaScript', 'Kotlin', 'PHP', 'Python']|[['Among Us', 'Mobile'], ['Fortnite', 'PlayStation 4'], ['Minecraft', 'PC'], ['League of Legends', 'PC'], ['Overwatch', 'PC']]|2000
+LuísCarvalho Fernandes Pereira|45|['São Paulo', 'SP']||b72e9250d97043c484e0f1f38056785a|luís2fk@webmail.net|1979-09-02|[]|['Go', 'C#']|[]|1979
+CarlosSantos Gomes|27|['São Paulo', 'SP']||44d9b7d8bc7d4a129a7427e808598e22|carlosaa2@randommail.com|1997-05-17|['cozinhar', 'pintura']|[]|[['League of Legends', 'PC'], ['Apex Legends', 'PC'], ['Cyberpunk 2077', 'PC']]|1997
+CarlosRocha Martins Souza|22|['Campinas', 'SP']||5c4e3684af6744ec9879c11aad5528ab|carlos4@mailservice.com|2002-08-09|[]|['Go']|[['The Witcher 3', 'Xbox One']]|2002
+AnaRocha Carvalho Correia|35|['São Paulo', 'SP']||69852e7981b54dbfa14b8d8938fa8bca|anauuy@inbox.org|1989-04-27|[]|['Kotlin', 'Ruby']|[['League of Legends', 'PC'], ['GTA V', 'PlayStation 4'], ['Overwatch', 'PC'], ['Minecraft', 'PC'], ['The Witcher 3', 'Xbox One']]|1989
+GuilhermeOliveira Barbosa|42|['Campinas', 'SP']||54e3f4a6f4f3418ab5b615841aed1cdf|guilhermea3@fastmail.com|1981-11-13|['cinema']|['Go', 'Java', 'Swift', 'C++']|[]|1982
+JuliaAlmeida Lima Carvalho|47|['São Paulo', 'SP']||09e77eeab912499c890a2cbeb633d90e|juliagwf@fastmail.com|1976-12-21|['fotografia', 'música', 'futebol']|[]|[['Fortnite', 'PlayStation 4'], ['The Witcher 3', 'Xbox One']]|1977
+LucasRocha Gomes Correia|41|['Campinas', 'SP']||92fe473c25c44383b51af520f75a9b3e|lucas1x@mailservice.com||['futebol', 'fotografia']|['Kotlin', 'JavaScript']|[]|1983
+LucasMoraes Almeida|33|['São Paulo', 'SP']||d0337154a1824422b290ace164554532|lucasn@webmail.net|1991-06-10|[]|['C#']|[]|1991

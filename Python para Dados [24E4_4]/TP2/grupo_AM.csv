@@ -1,0 +1,4 @@
+Nome|Idade|Localização(Cidade, Estado)|Amigos(Lista)|ID|Email|DataDeNascimento|Hobbies|Coding|Jogos(Nome, Plataforma)|ano_nascimento
+BeatrizAlmeida Souza Santos|23|['Manaus', 'AM']||476fda27277e49aab4e7dfebfc2301d3|beatrizoo@fastmail.com|2001-10-21|['futebol', 'viagem']|['Go', 'Kotlin', 'C#', 'Python']|[['Apex Legends', 'PC'], ['Fortnite', 'PlayStation 4'], ['Cyberpunk 2077', 'PC']]|2001
+GuilhermeLima Souza Rocha|39|['Manaus', 'AM']||bb4af9b43c12498a8e36a3c1ede17161|guilhermela@inbox.org|1985-06-26|['música', 'viagem', 'leitura']|['Kotlin', 'Swift', 'PHP', 'Go']|[['Valorant', 'PC']]|1985
+RafaelMoraes|31|['Manaus', 'AM']||b38a94a6c90b447f926b44e1f905f033|rafaell2@inbox.org|1993-07-19|['natação', 'cozinhar']|['Kotlin', 'Go', 'Swift']|[['Cyberpunk 2077', 'PC'], ['Among Us', 'Mobile']]|1993

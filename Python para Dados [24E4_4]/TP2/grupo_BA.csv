@@ -1,0 +1,10 @@
+Nome|Idade|Localização(Cidade, Estado)|Amigos(Lista)|ID|Email|DataDeNascimento|Hobbies|Coding|Jogos(Nome, Plataforma)|ano_nascimento
+Lucas|31|['Salvador', 'BA']|['Lívia', 'Fernando']|d8920f4bb454458994fdf47b9bdfeaa2||||||1993
+Carla|29|['Salvador', 'BA']|['Fernando', 'Tiago', 'Lucas']|133ce46665c44a41908af17d7b6c197e||||||1995
+CamilaMartins Fernandes Oliveira|29|['Salvador', 'BA']||9ecbcaca190d40c098e2b02e04ed8e95||1994-12-21|['leitura', 'pintura', 'viagem']|['Ruby', 'PHP']|[['GTA V', 'PlayStation 4']]|1995
+LarissaOliveira Souza Carvalho|19|['Salvador', 'BA']||f47f0566ead541a890f193273b9ecd52|larissali@inbox.org|2005-05-12|['futebol', 'cozinhar', 'pintura']|['JavaScript', 'Python', 'Swift']|[['Cyberpunk 2077', 'PC'], ['Overwatch', 'PC']]|2005
+RafaelMartins Ribeiro Moraes|42|['Salvador', 'BA']||cfa37837450b42549be099ce3bf09ab6||1982-05-26|['leitura', 'fotografia', 'pintura', 'natação', 'música']|['JavaScript', 'Ruby']|[['Cyberpunk 2077', 'PC'], ['The Witcher 3', 'Xbox One'], ['Among Us', 'Mobile']]|1982
+LuísDias Souza Barbosa|44|['Salvador', 'BA']||4d79aeff7b454b58a96e9a2b0c3bd65f|luís3j@randommail.com|1980-08-22|[]|['PHP']|[]|1980
+AnaCarvalho Moraes|32|['Salvador', 'BA']||63700c150b0a46c8ad0379570e22151c|anaro5@fastmail.com|2024-07-22|['cozinhar']|['Ruby', 'PHP', 'C++']|[['Apex Legends', 'PC']]|1992
+RafaelLima Oliveira Barbosa|44|['Salvador', 'BA']||66057ed95410471896ebd7c75c771cd8|rafael0@mailservice.com|1980-04-19|['leitura', 'natação', 'viagem', 'música']|['JavaScript', 'Java', 'PHP', 'C#', 'C++']|[['Minecraft', 'PC'], ['Fortnite', 'PlayStation 4'], ['Among Us', 'Mobile']]|1980
+BeatrizSouza Pereira|27|['Salvador', 'BA']||21eea015de774a809dd9e0c92aa93274|beatrizg0j@freemail.com||['cinema', 'ciclismo', 'pintura']|['C++', 'PHP', 'Ruby']|[['Cyberpunk 2077', 'PC']]|1997

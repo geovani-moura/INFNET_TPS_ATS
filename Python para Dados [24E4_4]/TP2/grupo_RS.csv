@@ -1,0 +1,14 @@
+Nome|Idade|Localização(Cidade, Estado)|Amigos(Lista)|ID|Email|DataDeNascimento|Hobbies|Coding|Jogos(Nome, Plataforma)|ano_nascimento
+Marcos|27|['Porto Alegre', 'RS']|['João', 'Carlos']|aeec8c7ddcd64447a81a60ff712e03df||||||1997
+Amanda|24|['Porto Alegre', 'RS']|['Pedro', 'Caio', 'Lívia']|67da8e46061d4ad28eda49be5fa170d9||||||2000
+Mariana|30|['Porto Alegre', 'RS']|['Felipe', 'Lívia', 'Fernando']|8df8bc90864842d28e6464ba5235db4c||||||1994
+CamilaRibeiro Dias|20|['Porto Alegre', 'RS']||efd9f470688446fb85b50b7b61b0727a|camilaee@freemail.com|2004-10-22|['cinema', 'futebol', 'natação']|['PHP', 'Kotlin', 'C#', 'Go', 'Java']|[['Apex Legends', 'PC'], ['Minecraft', 'PC']]|2004
+RafaelOliveira|30|['Porto Alegre', 'RS']||0b83d51b3b7e42ae97f5b27b45b0d863|rafaelau0@freemail.com|1993-11-07|[]|['Java']|[['Fortnite', 'PlayStation 4'], ['Cyberpunk 2077', 'PC']]|1994
+BeatrizAraújo Souza|31|['Porto Alegre', 'RS']||0465cf5aee534294b2b0d11183ce56d8|beatriz00q@inbox.org|1993-06-01|['fotografia', 'viagem', 'cozinhar', 'natação', 'leitura']|['Ruby', 'Go', 'JavaScript', 'Java', 'PHP']|[['Among Us', 'Mobile'], ['Valorant', 'PC'], ['Overwatch', 'PC']]|1993
+CarlosRibeiro Rocha Rodrigues|26|['Porto Alegre', 'RS']||cdf2f91d894b495691a272c23dcfed38|carlosvik@fastmail.com|1997-11-03|['viagem', 'fotografia', 'ciclismo', 'cozinhar', 'pintura']|[]|[['Among Us', 'Mobile'], ['Overwatch', 'PC'], ['Fortnite', 'PlayStation 4']]|1998
+LarissaSantos Ribeiro|47|['Porto Alegre', 'RS']||ea69129e0b28420a95874bcef5debd91|larissarnl@randommail.com|1977-08-05|['ciclismo', 'cozinhar']|['PHP', 'JavaScript', 'C++', 'Python']|[['Overwatch', 'PC'], ['Fortnite', 'PlayStation 4']]|1977
+CamilaOliveira Costa Moraes|32|['Porto Alegre', 'RS']||88e69e45cfb949dc9f54464c307d70dc|camilaphh@fastmail.com|1992-03-06|['futebol', 'música', 'natação']|[]|[['Among Us', 'Mobile'], ['Minecraft', 'PC'], ['Fortnite', 'PlayStation 4']]|1992
+PedroSilva|39|['Porto Alegre', 'RS']||8298cf62649f4a1d98e77b99f36fda3c|pedroy4@mailservice.com|1985-04-12|['cinema', 'pintura', 'futebol', 'cozinhar']|['Swift', 'Python']|[['The Witcher 3', 'Xbox One']]|1985
+LarissaCosta|29|['Porto Alegre', 'RS']||b9b49a5818cf41f8ad29b0f61643b374|larissaosc@example.com|1994-12-22|['ciclismo']|['Swift', 'Go', 'PHP']|[['GTA V', 'PlayStation 4'], ['Minecraft', 'PC'], ['The Witcher 3', 'Xbox One'], ['League of Legends', 'PC'], ['Cyberpunk 2077', 'PC']]|1995
+LuísPereira|31|['Porto Alegre', 'RS']||6b93af93528f44c9b526c4163e350bc2|luísh@inbox.org|20.06.1996|[]|['Python', 'PHP', 'Kotlin', 'Go', 'Ruby']|[['League of Legends', 'PC'], ['GTA V', 'PlayStation 4'], ['Valorant', 'PC'], ['Fortnite', 'PlayStation 4'], ['Apex Legends', 'PC']]|1993
+LarissaSantos Ribeiro|2024|['Porto Alegre', 'RS']||7796adcb1da44fceb7b1bd162ad89085|larissarnl@randommail.com|1977-08-05|['ciclismo', 'cozinhar']|['PHP', 'JavaScript', 'C++', 'Python']|[['Overwatch', 'PC'], ['Fortnite', 'PlayStation 4']]|0

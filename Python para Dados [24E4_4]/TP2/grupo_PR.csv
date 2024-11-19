@@ -1,0 +1,12 @@
+Nome|Idade|Localização(Cidade, Estado)|Amigos(Lista)|ID|Email|DataDeNascimento|Hobbies|Coding|Jogos(Nome, Plataforma)|ano_nascimento
+Fernanda|28|['Curitiba', 'PR']|['Ana']|e950d3492d724e01a672c8e28e0c9c03||||||1996
+Caio|27|['Curitiba', 'PR']|['Aline', 'Clara']|8e3d45946b5d4da88733ea077bdaa5f9||||||1997
+Renata|23|['Curitiba', 'PR']|['Clara', 'Fernando', 'Sofia']|84b6ea5f9a86414ca4abb26be1bb7504||||||2001
+LarissaCorreia Martins|41|['Curitiba', 'PR']||706c7a64b2e34460bc1c79d90d794c86|larissa8@mailservice.com|1983-03-07|[]|['Kotlin']|[['League of Legends', 'PC'], ['The Witcher 3', 'Xbox One'], ['Overwatch', 'PC']]|1983
+MatheusFernandes|32|['Curitiba', 'PR']||a769dfda1ca94b5cb0537b3ff7157a8a|matheus4@randommail.com|1991-12-11|['leitura', 'natação']|['Swift', 'Java']|[]|1992
+BrunoCorreia Costa|2024|['Curitiba', 'PR']||e30a3cc404c0494c82beac0fad983f3b|bruno53@fastmail.com|2003-08-11|['cinema', 'leitura']|['JavaScript']|[['League of Legends', 'PC'], ['The Witcher 3', 'Xbox One'], ['Fortnite', 'PlayStation 4'], ['Minecraft', 'PC']]|0
+BeatrizAlmeida Lima Costa|45|['Curitiba', 'PR']||0fb5d971f3274e0caad057a02cca38b1|beatrizpc@freemail.com|1979-03-23|[]|['Go', 'Swift', 'Ruby', 'C#', 'PHP']|[['Cyberpunk 2077', 'PC'], ['Overwatch', 'PC'], ['Apex Legends', 'PC']]|1979
+LucasFernandes Santos|28|['Curitiba', 'PR']||19910890c3054dcea78b325b7954d1a8|lucasf@webmail.net|1996-03-26|['cinema', 'fotografia']|['Python', 'Kotlin', 'Go', 'JavaScript']|[['Among Us', 'Mobile']]|1996
+BrunoRibeiro Rocha Almeida|28|['Curitiba', 'PR']||0d72092c4ad8410197720deabed4a72a|brunobsz@randommail.com|1996-03-05|['cozinhar', 'viagem', 'leitura']|['Kotlin', 'PHP', 'Java', 'C++']|[['GTA V', 'PlayStation 4'], ['Fortnite', 'PlayStation 4'], ['Overwatch', 'PC'], ['Apex Legends', 'PC'], ['Valorant', 'PC']]|1996
+BrunoDias|40|['Curitiba', 'PR']||cf4f3b4f199c405b8aba6138d2d62f68|bruno11@freemail.com|1984-05-05|['viagem']|['Go', 'Java', 'C#', 'JavaScript', 'Ruby']|[['Fortnite', 'PlayStation 4'], ['Cyberpunk 2077', 'PC'], ['Among Us', 'Mobile'], ['GTA V', 'PlayStation 4']]|1984
+CarlaAraújo Santos Dias|44|['Curitiba', 'PR']||91b6ea32683c4d5ca1e7d9f3a422cd97|carla8@randommail.com|1979-11-08|['música']|[]|[['Valorant', 'PC'], ['Cyberpunk 2077', 'PC'], ['GTA V', 'PlayStation 4'], ['Fortnite', 'PlayStation 4']]|1980

@@ -1,0 +1,12 @@
+Nome|Idade|Localização(Cidade, Estado)|Amigos(Lista)|ID|Email|DataDeNascimento|Hobbies|Coding|Jogos(Nome, Plataforma)|ano_nascimento
+Clara|26|['Brasília', 'DF']|['Fernanda', 'Lívia']|83af64da4aa6425e930e1cfacde8e881||||||1998
+Tiago|28|['Brasília', 'DF']|['Mateus', 'Lívia', 'Aline']|7c0c4178fd9e4d56846daf9e373ea728||||||1996
+Felipe|27|['Brasília', 'DF']|['Renata', 'Carla']|939e52ca318b418f82321cc6f777fac6||||||1997
+CamilaCarvalho Dias Ribeiro|25|['Brasília', 'DF']||cddeaf5952b3435ca4076ef0ab95bd32|camilac1@freemail.com|1999-07-08|['cinema', 'ciclismo']|['JavaScript', 'Go', 'Java']|[['Minecraft', 'PC'], ['Among Us', 'Mobile'], ['Valorant', 'PC'], ['The Witcher 3', 'Xbox One']]|1999
+MarianaRocha Oliveira Dias|2024|['Brasília', 'DF']||9ad468b8986a41afa1f87fc1fc712cca|mariana07@example.com|1992-09-06|[]|['C#', 'Java', 'Go']|[['GTA V', 'PlayStation 4']]|0
+BeatrizDias Ribeiro Lima|45|['Brasília', 'DF']||7f1d1affab554901a09249ebc4a82d3c||1979-04-04|['natação', 'cozinhar', 'fotografia', 'pintura']|[]|[]|1979
+RafaelGomes|37|['Brasília', 'DF']||5f7b38ea53d942869da7409ee3c2f2fa|rafaelfwk@webmail.net|1987-08-19|['cinema', 'viagem', 'leitura', 'cozinhar', 'ciclismo']|['Ruby', 'Java', 'C#']|[['Apex Legends', 'PC'], ['GTA V', 'PlayStation 4'], ['Fortnite', 'PlayStation 4'], ['Valorant', 'PC']]|1987
+CamilaSouza|32|['Brasília', 'DF']||3bc455ac6c234c8982b4130684eaf950|camilawce@webmail.net|1992-09-14|['cozinhar', 'pintura']|['C++', 'Ruby', 'Kotlin', 'Java', 'JavaScript']|[['Fortnite', 'PlayStation 4'], ['The Witcher 3', 'Xbox One'], ['Valorant', 'PC'], ['Overwatch', 'PC']]|1992
+PedroAraújo Costa|2024|['Brasília', 'DF']||ad4d33bd0b134ad2b2a6afd577e1ecfd||1995-12-16|['ciclismo', 'cinema']|['JavaScript', 'PHP', 'Swift']|[['Fortnite', 'PlayStation 4']]|0
+JuliaCarvalho Fernandes Martins|36|['Brasília', 'DF']||6c44dc54459f4800aa51103a79d3540d|juliae@inbox.org|1988-05-02|[]|['Java']|[['Minecraft', 'PC']]|1988
+BrunoSilva Dias Rocha|47|['Brasília', 'DF']||3f156b67aac94533bbe056e1e947e2ad|brunoe@randommail.com|1976-12-25|['cinema', 'natação', 'cozinhar', 'fotografia']|['JavaScript', 'Go', 'Ruby']|[]|1977

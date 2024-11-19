@@ -1,0 +1,9 @@
+Nome|Idade|Localização(Cidade, Estado)|Amigos(Lista)|ID|Email|DataDeNascimento|Hobbies|Coding|Jogos(Nome, Plataforma)|ano_nascimento
+Rafaela|22|['Recife', 'PE']|['Sofia', 'Clara']|004470567cff4ecaa7e4f7882f30338e||||||2002
+CamilaSantos|45|['Recife', 'PE']||dfe031cd9ef641488988a53f0cd2931d|camila6oo@inbox.org|05/03/81|['ciclismo', 'pintura', 'natação', 'música', 'cinema']|['Java', 'Kotlin', 'C++', 'Ruby', 'Python']|[['Cyberpunk 2077', 'PC'], ['League of Legends', 'PC']]|1979
+JuliaPereira Santos Almeida|22|['Recife', 'PE']||d4f16bea71bf4171a8bb8b5d9e625e65|julia5b8@freemail.com|2002-10-13|['ciclismo', 'pintura', 'cozinhar', 'música', 'fotografia']|[]|[['GTA V', 'PlayStation 4']]|2002
+RafaelOliveira Souza Santos|42|['Recife', 'PE']||e4a18c04af0642e089f9f8dd260bb647|rafaelav@inbox.org|1982-09-26|['futebol', 'música', 'pintura', 'cinema']|['Go', 'Kotlin', 'Ruby']|[['GTA V', 'PlayStation 4']]|1982
+LuísAlmeida Gomes Ribeiro|2024|['Recife', 'PE']||198a00dece454902b77f02fae487c5c6|luísl4@fastmail.com|1980-12-27|['pintura']|['Python', 'Java']|[['Fortnite', 'PlayStation 4']]|0
+GuilhermePereira Barbosa Souza|36|['Recife', 'PE']||0af28a8164c94a0383cfed520d5f7d77|guilherme5e@webmail.net|1988-06-13|['música', 'cinema', 'cozinhar', 'natação']|['Swift']|[['The Witcher 3', 'Xbox One'], ['Overwatch', 'PC'], ['Fortnite', 'PlayStation 4'], ['Among Us', 'Mobile']]|1988
+AnaMoraes Pereira Ribeiro|45|['Recife', 'PE']||81b641bb65004c0da7daa9e51399fff5|anaat@example.com|1978-11-09|['viagem']|[]|[['Overwatch', 'PC'], ['Valorant', 'PC'], ['GTA V', 'PlayStation 4']]|1979
+LuísAlmeida Gomes Ribeiro|43|['Recife', 'PE']||2ac55cb7eb074afa9abcad363c86ea89|luísl4@fastmail.com|1980-12-27|['pintura']|['Python', 'Java']|[['Fortnite', 'PlayStation 4']]|1981

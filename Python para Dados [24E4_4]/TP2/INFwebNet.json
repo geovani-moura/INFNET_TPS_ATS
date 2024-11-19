@@ -1,0 +1,4802 @@
+[
+    {
+        "Nome": "Geovani",
+        "Idade": "33",
+        "Localização(Cidade, Estado)": [
+            "São Paulo",
+            "SP"
+        ],
+        "Amigos(Lista)": [
+            "Maria"
+        ],
+        "ID": "4a9f37b2643a45b9ae99c54c055d7219",
+        "Email": "g@g.com.br",
+        "DataDeNascimento": "1992-09-30",
+        "Hobbies": [
+            "Jogar"
+        ],
+        "Coding": [
+            "Python",
+            "C#"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Mario",
+                "Wii"
+            ]
+        ],
+        "ano_nascimento": 1992
+    },
+    {
+        "Nome": "José Santos",
+        "Idade": "52",
+        "Localização(Cidade, Estado)": [
+            "São Paulo",
+            "SP"
+        ],
+        "Amigos(Lista)": "",
+        "ID": "8b291303b1b74eb78d26ce447c2ea55c",
+        "Email": null,
+        "DataDeNascimento": null,
+        "Hobbies": null,
+        "Coding": null,
+        "Jogos(Nome, Plataforma)": null,
+        "ano_nascimento": 1972
+    },
+    {
+        "Nome": "Ana Oliveira",
+        "Idade": "28",
+        "Localização(Cidade, Estado)": [
+            "São Paulo",
+            "SP"
+        ],
+        "Amigos(Lista)": "",
+        "ID": "4afcbbf249fb4f43b32304be012f9bb7",
+        "Email": null,
+        "DataDeNascimento": null,
+        "Hobbies": null,
+        "Coding": null,
+        "Jogos(Nome, Plataforma)": null,
+        "ano_nascimento": 1996
+    },
+    {
+        "Nome": "João Pereira",
+        "Idade": "33",
+        "Localização(Cidade, Estado)": [
+            "São Paulo",
+            "SP"
+        ],
+        "Amigos(Lista)": "",
+        "ID": "dc8ca30814cd4879b813649b5edcc763",
+        "Email": null,
+        "DataDeNascimento": null,
+        "Hobbies": null,
+        "Coding": null,
+        "Jogos(Nome, Plataforma)": null,
+        "ano_nascimento": 1991
+    },
+    {
+        "Nome": "Carlos Sousa",
+        "Idade": "40",
+        "Localização(Cidade, Estado)": [
+            "São Paulo",
+            "SP"
+        ],
+        "Amigos(Lista)": "",
+        "ID": "4bf0c4205fce4878888e816ad5932bd3",
+        "Email": null,
+        "DataDeNascimento": null,
+        "Hobbies": null,
+        "Coding": null,
+        "Jogos(Nome, Plataforma)": null,
+        "ano_nascimento": 1984
+    },
+    {
+        "Nome": "João",
+        "Idade": "25",
+        "Localização(Cidade, Estado)": [
+            "Rio de Janeiro",
+            "RJ"
+        ],
+        "Amigos(Lista)": [
+            "Ana",
+            "Carlos"
+        ],
+        "ID": "48f0df7178bd4450a9ff7b80c97cc90d",
+        "Email": null,
+        "DataDeNascimento": null,
+        "Hobbies": null,
+        "Coding": null,
+        "Jogos(Nome, Plataforma)": null,
+        "ano_nascimento": 1999
+    },
+    {
+        "Nome": "Ana",
+        "Idade": "22",
+        "Localização(Cidade, Estado)": [
+            "São Paulo",
+            "SP"
+        ],
+        "Amigos(Lista)": [
+            "João",
+            "Fernanda"
+        ],
+        "ID": "d2cf1935e54941e0a8c1cda0d15cd293",
+        "Email": null,
+        "DataDeNascimento": null,
+        "Hobbies": null,
+        "Coding": null,
+        "Jogos(Nome, Plataforma)": null,
+        "ano_nascimento": 2002
+    },
+    {
+        "Nome": "Carlos",
+        "Idade": "30",
+        "Localização(Cidade, Estado)": [
+            "Belo Horizonte",
+            "MG"
+        ],
+        "Amigos(Lista)": [
+            "João",
+            "Marcos",
+            "Caio"
+        ],
+        "ID": "310b2a5720a74b73a8f18896d9e14634",
+        "Email": null,
+        "DataDeNascimento": null,
+        "Hobbies": null,
+        "Coding": null,
+        "Jogos(Nome, Plataforma)": null,
+        "ano_nascimento": 1994
+    },
+    {
+        "Nome": "Fernanda",
+        "Idade": "28",
+        "Localização(Cidade, Estado)": [
+            "Curitiba",
+            "PR"
+        ],
+        "Amigos(Lista)": [
+            "Ana"
+        ],
+        "ID": "e950d3492d724e01a672c8e28e0c9c03",
+        "Email": null,
+        "DataDeNascimento": null,
+        "Hobbies": null,
+        "Coding": null,
+        "Jogos(Nome, Plataforma)": null,
+        "ano_nascimento": 1996
+    },
+    {
+        "Nome": "Marcos",
+        "Idade": "27",
+        "Localização(Cidade, Estado)": [
+            "Porto Alegre",
+            "RS"
+        ],
+        "Amigos(Lista)": [
+            "João",
+            "Carlos"
+        ],
+        "ID": "aeec8c7ddcd64447a81a60ff712e03df",
+        "Email": null,
+        "DataDeNascimento": null,
+        "Hobbies": null,
+        "Coding": null,
+        "Jogos(Nome, Plataforma)": null,
+        "ano_nascimento": 1997
+    },
+    {
+        "Nome": "Clara",
+        "Idade": "26",
+        "Localização(Cidade, Estado)": [
+            "Brasília",
+            "DF"
+        ],
+        "Amigos(Lista)": [
+            "Fernanda",
+            "Lívia"
+        ],
+        "ID": "83af64da4aa6425e930e1cfacde8e881",
+        "Email": null,
+        "DataDeNascimento": null,
+        "Hobbies": null,
+        "Coding": null,
+        "Jogos(Nome, Plataforma)": null,
+        "ano_nascimento": 1998
+    },
+    {
+        "Nome": "Lívia",
+        "Idade": "24",
+        "Localização(Cidade, Estado)": [
+            "São Paulo",
+            "SP"
+        ],
+        "Amigos(Lista)": [
+            "Clara",
+            "Lucas",
+            "Marcos"
+        ],
+        "ID": "436e82e2ca404d65be0627c8e97e0c43",
+        "Email": null,
+        "DataDeNascimento": null,
+        "Hobbies": null,
+        "Coding": null,
+        "Jogos(Nome, Plataforma)": null,
+        "ano_nascimento": 2000
+    },
+    {
+        "Nome": "Lucas",
+        "Idade": "31",
+        "Localização(Cidade, Estado)": [
+            "Salvador",
+            "BA"
+        ],
+        "Amigos(Lista)": [
+            "Lívia",
+            "Fernando"
+        ],
+        "ID": "d8920f4bb454458994fdf47b9bdfeaa2",
+        "Email": null,
+        "DataDeNascimento": null,
+        "Hobbies": null,
+        "Coding": null,
+        "Jogos(Nome, Plataforma)": null,
+        "ano_nascimento": 1993
+    },
+    {
+        "Nome": "Fernando",
+        "Idade": "29",
+        "Localização(Cidade, Estado)": [
+            "Fortaleza",
+            "CE"
+        ],
+        "Amigos(Lista)": [
+            "Lucas",
+            "Aline"
+        ],
+        "ID": "3e5b5d7399274c388d02b064c840456e",
+        "Email": null,
+        "DataDeNascimento": null,
+        "Hobbies": null,
+        "Coding": null,
+        "Jogos(Nome, Plataforma)": null,
+        "ano_nascimento": 1995
+    },
+    {
+        "Nome": "Aline",
+        "Idade": "23",
+        "Localização(Cidade, Estado)": [
+            "Florianópolis",
+            "SC"
+        ],
+        "Amigos(Lista)": [
+            "Fernando",
+            "Caio",
+            "Clara"
+        ],
+        "ID": "040676eea1ad4f559001b4c4bd7125d3",
+        "Email": null,
+        "DataDeNascimento": null,
+        "Hobbies": null,
+        "Coding": null,
+        "Jogos(Nome, Plataforma)": null,
+        "ano_nascimento": 2001
+    },
+    {
+        "Nome": "Caio",
+        "Idade": "27",
+        "Localização(Cidade, Estado)": [
+            "Curitiba",
+            "PR"
+        ],
+        "Amigos(Lista)": [
+            "Aline",
+            "Clara"
+        ],
+        "ID": "8e3d45946b5d4da88733ea077bdaa5f9",
+        "Email": null,
+        "DataDeNascimento": null,
+        "Hobbies": null,
+        "Coding": null,
+        "Jogos(Nome, Plataforma)": null,
+        "ano_nascimento": 1997
+    },
+    {
+        "Nome": "Sofia",
+        "Idade": "21",
+        "Localização(Cidade, Estado)": [
+            "Campinas",
+            "SP"
+        ],
+        "Amigos(Lista)": [
+            "Rafaela",
+            "Fernanda"
+        ],
+        "ID": "0e30a85415c44a5f9d1c66d0e4a0c0b2",
+        "Email": null,
+        "DataDeNascimento": null,
+        "Hobbies": null,
+        "Coding": null,
+        "Jogos(Nome, Plataforma)": null,
+        "ano_nascimento": 2003
+    },
+    {
+        "Nome": "Rafaela",
+        "Idade": "22",
+        "Localização(Cidade, Estado)": [
+            "Recife",
+            "PE"
+        ],
+        "Amigos(Lista)": [
+            "Sofia",
+            "Clara"
+        ],
+        "ID": "004470567cff4ecaa7e4f7882f30338e",
+        "Email": null,
+        "DataDeNascimento": null,
+        "Hobbies": null,
+        "Coding": null,
+        "Jogos(Nome, Plataforma)": null,
+        "ano_nascimento": 2002
+    },
+    {
+        "Nome": "Mateus",
+        "Idade": "32",
+        "Localização(Cidade, Estado)": [
+            "Rio de Janeiro",
+            "RJ"
+        ],
+        "Amigos(Lista)": [
+            "Caio",
+            "Fernando",
+            "João"
+        ],
+        "ID": "5d9348680401484b965ab3e8f978ec6c",
+        "Email": null,
+        "DataDeNascimento": null,
+        "Hobbies": null,
+        "Coding": null,
+        "Jogos(Nome, Plataforma)": null,
+        "ano_nascimento": 1992
+    },
+    {
+        "Nome": "Tiago",
+        "Idade": "28",
+        "Localização(Cidade, Estado)": [
+            "Brasília",
+            "DF"
+        ],
+        "Amigos(Lista)": [
+            "Mateus",
+            "Lívia",
+            "Aline"
+        ],
+        "ID": "7c0c4178fd9e4d56846daf9e373ea728",
+        "Email": null,
+        "DataDeNascimento": null,
+        "Hobbies": null,
+        "Coding": null,
+        "Jogos(Nome, Plataforma)": null,
+        "ano_nascimento": 1996
+    },
+    {
+        "Nome": "Paulo",
+        "Idade": "33",
+        "Localização(Cidade, Estado)": "",
+        "Amigos(Lista)": [
+            "Tiago",
+            "Fernanda",
+            "Lucas"
+        ],
+        "ID": "1f1dc4929902472fbacc70b0d056aefb",
+        "Email": null,
+        "DataDeNascimento": null,
+        "Hobbies": null,
+        "Coding": null,
+        "Jogos(Nome, Plataforma)": null,
+        "ano_nascimento": 1991
+    },
+    {
+        "Nome": "Juliana",
+        "Idade": "25",
+        "Localização(Cidade, Estado)": [
+            "São Paulo",
+            "SP"
+        ],
+        "Amigos(Lista)": [
+            "Rafaela",
+            "Sofia",
+            "Marcos"
+        ],
+        "ID": "e3e94942d4b94831b751011b3a1bdf5e",
+        "Email": null,
+        "DataDeNascimento": null,
+        "Hobbies": null,
+        "Coding": null,
+        "Jogos(Nome, Plataforma)": null,
+        "ano_nascimento": 1999
+    },
+    {
+        "Nome": "Pedro",
+        "Idade": "26",
+        "Localização(Cidade, Estado)": [
+            "Belo Horizonte",
+            "MG"
+        ],
+        "Amigos(Lista)": [
+            "João",
+            "Aline"
+        ],
+        "ID": "04ac30a475eb498fb17afdd46ff1faaf",
+        "Email": null,
+        "DataDeNascimento": null,
+        "Hobbies": null,
+        "Coding": null,
+        "Jogos(Nome, Plataforma)": null,
+        "ano_nascimento": 1998
+    },
+    {
+        "Nome": "Amanda",
+        "Idade": "24",
+        "Localização(Cidade, Estado)": [
+            "Porto Alegre",
+            "RS"
+        ],
+        "Amigos(Lista)": [
+            "Pedro",
+            "Caio",
+            "Lívia"
+        ],
+        "ID": "67da8e46061d4ad28eda49be5fa170d9",
+        "Email": null,
+        "DataDeNascimento": null,
+        "Hobbies": null,
+        "Coding": null,
+        "Jogos(Nome, Plataforma)": null,
+        "ano_nascimento": 2000
+    },
+    {
+        "Nome": "Bruno",
+        "Idade": "30",
+        "Localização(Cidade, Estado)": [
+            "Cuiabá",
+            "MT"
+        ],
+        "Amigos(Lista)": [
+            "Ana",
+            "Marcos",
+            "Mateus"
+        ],
+        "ID": "649bbfb748cb41e1b5c260c098ed0fd2",
+        "Email": null,
+        "DataDeNascimento": null,
+        "Hobbies": null,
+        "Coding": null,
+        "Jogos(Nome, Plataforma)": null,
+        "ano_nascimento": 1994
+    },
+    {
+        "Nome": "Carla",
+        "Idade": "29",
+        "Localização(Cidade, Estado)": [
+            "Salvador",
+            "BA"
+        ],
+        "Amigos(Lista)": [
+            "Fernando",
+            "Tiago",
+            "Lucas"
+        ],
+        "ID": "133ce46665c44a41908af17d7b6c197e",
+        "Email": null,
+        "DataDeNascimento": null,
+        "Hobbies": null,
+        "Coding": null,
+        "Jogos(Nome, Plataforma)": null,
+        "ano_nascimento": 1995
+    },
+    {
+        "Nome": "Gabriela",
+        "Idade": "27",
+        "Localização(Cidade, Estado)": [
+            "Fortaleza",
+            "CE"
+        ],
+        "Amigos(Lista)": [
+            "Carla",
+            "Aline",
+            "Rafaela"
+        ],
+        "ID": "2dfd7e4e059a4a33a262707fcb0ccef8",
+        "Email": null,
+        "DataDeNascimento": null,
+        "Hobbies": null,
+        "Coding": null,
+        "Jogos(Nome, Plataforma)": null,
+        "ano_nascimento": 1997
+    },
+    {
+        "Nome": "Thiago",
+        "Idade": "31",
+        "Localização(Cidade, Estado)": [
+            "São Paulo",
+            "SP"
+        ],
+        "Amigos(Lista)": [
+            "João",
+            "Amanda",
+            "Lucas",
+            "Clara"
+        ],
+        "ID": "981de556a5a141eb9fdf1ec14ff1e1dc",
+        "Email": null,
+        "DataDeNascimento": null,
+        "Hobbies": null,
+        "Coding": null,
+        "Jogos(Nome, Plataforma)": null,
+        "ano_nascimento": 1993
+    },
+    {
+        "Nome": "Renata",
+        "Idade": "23",
+        "Localização(Cidade, Estado)": [
+            "Curitiba",
+            "PR"
+        ],
+        "Amigos(Lista)": [
+            "Clara",
+            "Fernando",
+            "Sofia"
+        ],
+        "ID": "84b6ea5f9a86414ca4abb26be1bb7504",
+        "Email": null,
+        "DataDeNascimento": null,
+        "Hobbies": null,
+        "Coding": null,
+        "Jogos(Nome, Plataforma)": null,
+        "ano_nascimento": 2001
+    },
+    {
+        "Nome": "Leonardo",
+        "Idade": "29",
+        "Localização(Cidade, Estado)": [
+            "Campinas",
+            "SP"
+        ],
+        "Amigos(Lista)": [
+            "Renata",
+            "Mateus",
+            "Caio"
+        ],
+        "ID": "8666b1fe4a854763830fd5029c0d38a5",
+        "Email": null,
+        "DataDeNascimento": null,
+        "Hobbies": null,
+        "Coding": null,
+        "Jogos(Nome, Plataforma)": null,
+        "ano_nascimento": 1995
+    },
+    {
+        "Nome": "Camila",
+        "Idade": "28",
+        "Localização(Cidade, Estado)": [
+            "Niterói",
+            "RJ"
+        ],
+        "Amigos(Lista)": [
+            "Juliana",
+            "Bruno",
+            "Lucas",
+            "Caio"
+        ],
+        "ID": "100aeea8724b49d0b5e41aa108b2193e",
+        "Email": null,
+        "DataDeNascimento": null,
+        "Hobbies": null,
+        "Coding": null,
+        "Jogos(Nome, Plataforma)": null,
+        "ano_nascimento": 1996
+    },
+    {
+        "Nome": "Felipe",
+        "Idade": "27",
+        "Localização(Cidade, Estado)": [
+            "Brasília",
+            "DF"
+        ],
+        "Amigos(Lista)": [
+            "Renata",
+            "Carla"
+        ],
+        "ID": "939e52ca318b418f82321cc6f777fac6",
+        "Email": null,
+        "DataDeNascimento": null,
+        "Hobbies": null,
+        "Coding": null,
+        "Jogos(Nome, Plataforma)": null,
+        "ano_nascimento": 1997
+    },
+    {
+        "Nome": "Mariana",
+        "Idade": "30",
+        "Localização(Cidade, Estado)": [
+            "Porto Alegre",
+            "RS"
+        ],
+        "Amigos(Lista)": [
+            "Felipe",
+            "Lívia",
+            "Fernando"
+        ],
+        "ID": "8df8bc90864842d28e6464ba5235db4c",
+        "Email": null,
+        "DataDeNascimento": null,
+        "Hobbies": null,
+        "Coding": null,
+        "Jogos(Nome, Plataforma)": null,
+        "ano_nascimento": 1994
+    },
+    {
+        "Nome": "Daniel",
+        "Idade": "25",
+        "Localização(Cidade, Estado)": [
+            "Rio de Janeiro",
+            "RJ"
+        ],
+        "Amigos(Lista)": [
+            "Camila",
+            "Paulo",
+            "Amanda"
+        ],
+        "ID": "08dd8fcf7d374e0e86e8921ea7758337",
+        "Email": null,
+        "DataDeNascimento": null,
+        "Hobbies": null,
+        "Coding": null,
+        "Jogos(Nome, Plataforma)": null,
+        "ano_nascimento": 1999
+    },
+    {
+        "Nome": "MatheusCosta Ribeiro",
+        "Idade": "36.0",
+        "Localização(Cidade, Estado)": [
+            "Fortaleza",
+            "CE"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "371544ed2c764d82b911f663e540412b",
+        "Email": "matheus4@webmail.net",
+        "DataDeNascimento": "1988-09-22",
+        "Hobbies": [
+            "leitura",
+            "cozinhar",
+            "música",
+            "cinema",
+            "pintura"
+        ],
+        "Coding": [
+            "Go",
+            "PHP",
+            "Ruby",
+            "Java",
+            "Python"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Overwatch",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 1988
+    },
+    {
+        "Nome": "CamilaRibeiro Dias",
+        "Idade": "20.0",
+        "Localização(Cidade, Estado)": [
+            "Porto Alegre",
+            "RS"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "efd9f470688446fb85b50b7b61b0727a",
+        "Email": "camilaee@freemail.com",
+        "DataDeNascimento": "2004-10-22",
+        "Hobbies": [
+            "cinema",
+            "futebol",
+            "natação"
+        ],
+        "Coding": [
+            "PHP",
+            "Kotlin",
+            "C#",
+            "Go",
+            "Java"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Apex Legends",
+                "PC"
+            ],
+            [
+                "Minecraft",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 2004
+    },
+    {
+        "Nome": "LarissaMoraes Barbosa",
+        "Idade": "20.0",
+        "Localização(Cidade, Estado)": [
+            "Petropolis",
+            "RJ"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "c036fc77cb79478dad66126beccdee8d",
+        "Email": "larissakx@webmail.net",
+        "DataDeNascimento": "2004-09-04",
+        "Hobbies": [
+            "leitura",
+            "fotografia",
+            "ciclismo"
+        ],
+        "Coding": [
+            "C#",
+            "C++",
+            "Ruby",
+            "JavaScript"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "GTA V",
+                "PlayStation 4"
+            ],
+            [
+                "Cyberpunk 2077",
+                "PC"
+            ],
+            [
+                "Valorant",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 2004
+    },
+    {
+        "Nome": "FernandaGomes",
+        "Idade": "19.0",
+        "Localização(Cidade, Estado)": [
+            "Campinas",
+            "SP"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "190cc198111e49eb8a27ecdb53d025dc",
+        "Email": "fernanda29h@inbox.org",
+        "DataDeNascimento": "Dec 10, 1999",
+        "Hobbies": [
+            "fotografia",
+            "cozinhar",
+            "futebol"
+        ],
+        "Coding": [],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "GTA V",
+                "PlayStation 4"
+            ],
+            [
+                "Valorant",
+                "PC"
+            ],
+            [
+                "Fortnite",
+                "PlayStation 4"
+            ],
+            [
+                "Minecraft",
+                "PC"
+            ],
+            [
+                "The Witcher 3",
+                "Xbox One"
+            ]
+        ],
+        "ano_nascimento": 2005
+    },
+    {
+        "Nome": "CamilaCarvalho Dias Ribeiro",
+        "Idade": "25.0",
+        "Localização(Cidade, Estado)": [
+            "Brasília",
+            "DF"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "cddeaf5952b3435ca4076ef0ab95bd32",
+        "Email": "camilac1@freemail.com",
+        "DataDeNascimento": "1999-07-08",
+        "Hobbies": [
+            "cinema",
+            "ciclismo"
+        ],
+        "Coding": [
+            "JavaScript",
+            "Go",
+            "Java"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Minecraft",
+                "PC"
+            ],
+            [
+                "Among Us",
+                "Mobile"
+            ],
+            [
+                "Valorant",
+                "PC"
+            ],
+            [
+                "The Witcher 3",
+                "Xbox One"
+            ]
+        ],
+        "ano_nascimento": 1999
+    },
+    {
+        "Nome": "CamilaMartins Fernandes Oliveira",
+        "Idade": "29.0",
+        "Localização(Cidade, Estado)": [
+            "Salvador",
+            "BA"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "9ecbcaca190d40c098e2b02e04ed8e95",
+        "Email": "",
+        "DataDeNascimento": "1994-12-21",
+        "Hobbies": [
+            "leitura",
+            "pintura",
+            "viagem"
+        ],
+        "Coding": [
+            "Ruby",
+            "PHP"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "GTA V",
+                "PlayStation 4"
+            ]
+        ],
+        "ano_nascimento": 1995
+    },
+    {
+        "Nome": "LuísCosta Fernandes",
+        "Idade": "26.0",
+        "Localização(Cidade, Estado)": [
+            "Campinas",
+            "SP"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "34746d88522e49019f4984aeb3162928",
+        "Email": "luísy8x@mailservice.com",
+        "DataDeNascimento": "1998-08-18",
+        "Hobbies": [
+            "natação",
+            "viagem",
+            "cinema",
+            "ciclismo",
+            "cozinhar"
+        ],
+        "Coding": [
+            "PHP",
+            "Java",
+            "Python"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "The Witcher 3",
+                "Xbox One"
+            ],
+            [
+                "GTA V",
+                "PlayStation 4"
+            ],
+            [
+                "League of Legends",
+                "PC"
+            ],
+            [
+                "Apex Legends",
+                "PC"
+            ],
+            [
+                "Minecraft",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 1998
+    },
+    {
+        "Nome": "BrunoBarbosa Souza",
+        "Idade": "18.0",
+        "Localização(Cidade, Estado)": [
+            "Belo Horizonte",
+            "MG"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "aa3ccfdd37d94411bc295a7d691b2ce0",
+        "Email": "bruno0@freemail.com",
+        "DataDeNascimento": "2006-01-01",
+        "Hobbies": [
+            "viagem",
+            "cinema",
+            "futebol"
+        ],
+        "Coding": [
+            "Swift",
+            "C#",
+            "Go",
+            "Kotlin",
+            "PHP"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Overwatch",
+                "PC"
+            ],
+            [
+                "GTA V",
+                "PlayStation 4"
+            ],
+            [
+                "The Witcher 3",
+                "Xbox One"
+            ],
+            [
+                "Minecraft",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 2006
+    },
+    {
+        "Nome": "AnaRodrigues",
+        "Idade": "41.0",
+        "Localização(Cidade, Estado)": [
+            "São Paulo",
+            "ZZ"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "c1fc3e00357a44cd8e7a9ba8e0041852",
+        "Email": "anav9i@inbox.org",
+        "DataDeNascimento": "1983-06-16",
+        "Hobbies": [
+            "pintura",
+            "fotografia"
+        ],
+        "Coding": [
+            "Python",
+            "Java",
+            "PHP",
+            "Kotlin",
+            "Swift"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Valorant",
+                "PC"
+            ],
+            [
+                "Overwatch",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 1983
+    },
+    {
+        "Nome": "RafaelOliveira",
+        "Idade": "30.0",
+        "Localização(Cidade, Estado)": [
+            "Porto Alegre",
+            "RS"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "0b83d51b3b7e42ae97f5b27b45b0d863",
+        "Email": "rafaelau0@freemail.com",
+        "DataDeNascimento": "1993-11-07",
+        "Hobbies": [],
+        "Coding": [
+            "Java"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Fortnite",
+                "PlayStation 4"
+            ],
+            [
+                "Cyberpunk 2077",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 1994
+    },
+    {
+        "Nome": "MarianaRocha Oliveira Dias",
+        "Idade": 2024,
+        "Localização(Cidade, Estado)": [
+            "Brasília",
+            "DF"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "9ad468b8986a41afa1f87fc1fc712cca",
+        "Email": "mariana07@example.com",
+        "DataDeNascimento": "1992-09-06",
+        "Hobbies": [],
+        "Coding": [
+            "C#",
+            "Java",
+            "Go"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "GTA V",
+                "PlayStation 4"
+            ]
+        ],
+        "ano_nascimento": 0
+    },
+    {
+        "Nome": "SofiaAraújo Carvalho Rodrigues",
+        "Idade": "46.0",
+        "Localização(Cidade, Estado)": [
+            "Juiz de Fora",
+            "MG"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "1105a9aefb1242d0adaa400b3a182efe",
+        "Email": "sofia6@example.com",
+        "DataDeNascimento": "1978-04-09",
+        "Hobbies": [
+            "viagem",
+            "pintura"
+        ],
+        "Coding": [],
+        "Jogos(Nome, Plataforma)": [],
+        "ano_nascimento": 1978
+    },
+    {
+        "Nome": "CamilaSantos",
+        "Idade": "45.0",
+        "Localização(Cidade, Estado)": [
+            "Recife",
+            "PE"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "dfe031cd9ef641488988a53f0cd2931d",
+        "Email": "camila6oo@inbox.org",
+        "DataDeNascimento": "05/03/81",
+        "Hobbies": [
+            "ciclismo",
+            "pintura",
+            "natação",
+            "música",
+            "cinema"
+        ],
+        "Coding": [
+            "Java",
+            "Kotlin",
+            "C++",
+            "Ruby",
+            "Python"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Cyberpunk 2077",
+                "PC"
+            ],
+            [
+                "League of Legends",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 1979
+    },
+    {
+        "Nome": "LarissaOliveira Souza Carvalho",
+        "Idade": "19.0",
+        "Localização(Cidade, Estado)": [
+            "Salvador",
+            "BA"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "f47f0566ead541a890f193273b9ecd52",
+        "Email": "larissali@inbox.org",
+        "DataDeNascimento": "2005-05-12",
+        "Hobbies": [
+            "futebol",
+            "cozinhar",
+            "pintura"
+        ],
+        "Coding": [
+            "JavaScript",
+            "Python",
+            "Swift"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Cyberpunk 2077",
+                "PC"
+            ],
+            [
+                "Overwatch",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 2005
+    },
+    {
+        "Nome": "JuliaPereira Santos Almeida",
+        "Idade": "22.0",
+        "Localização(Cidade, Estado)": [
+            "Recife",
+            "PE"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "d4f16bea71bf4171a8bb8b5d9e625e65",
+        "Email": "julia5b8@freemail.com",
+        "DataDeNascimento": "2002-10-13",
+        "Hobbies": [
+            "ciclismo",
+            "pintura",
+            "cozinhar",
+            "música",
+            "fotografia"
+        ],
+        "Coding": [],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "GTA V",
+                "PlayStation 4"
+            ]
+        ],
+        "ano_nascimento": 2002
+    },
+    {
+        "Nome": "BeatrizSouza Carvalho Moraes",
+        "Idade": "47.0",
+        "Localização(Cidade, Estado)": [
+            "Volta Redonda",
+            "RJ"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "d35c2d48cf634834bb9070055952a0d4",
+        "Email": "beatriz13@fastmail.com",
+        "DataDeNascimento": "1977-03-20",
+        "Hobbies": [],
+        "Coding": [
+            "JavaScript",
+            "Swift",
+            "Go",
+            "Java"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Apex Legends",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 1977
+    },
+    {
+        "Nome": "RafaelMartins Ribeiro Moraes",
+        "Idade": "42.0",
+        "Localização(Cidade, Estado)": [
+            "Salvador",
+            "BA"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "cfa37837450b42549be099ce3bf09ab6",
+        "Email": "",
+        "DataDeNascimento": "1982-05-26",
+        "Hobbies": [
+            "leitura",
+            "fotografia",
+            "pintura",
+            "natação",
+            "música"
+        ],
+        "Coding": [
+            "JavaScript",
+            "Ruby"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Cyberpunk 2077",
+                "PC"
+            ],
+            [
+                "The Witcher 3",
+                "Xbox One"
+            ],
+            [
+                "Among Us",
+                "Mobile"
+            ]
+        ],
+        "ano_nascimento": 1982
+    },
+    {
+        "Nome": "PedroSilva",
+        "Idade": 2024,
+        "Localização(Cidade, Estado)": [
+            "Belo Horizonte",
+            "MG"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "26c3c7a8f8c34cbc9fdd776ad9f6ed82",
+        "Email": "pedrog@webmail.net",
+        "DataDeNascimento": "1984-04-26",
+        "Hobbies": [
+            "leitura"
+        ],
+        "Coding": [
+            "Python",
+            "C++",
+            "Ruby",
+            "C#",
+            "Swift"
+        ],
+        "Jogos(Nome, Plataforma)": [],
+        "ano_nascimento": 0
+    },
+    {
+        "Nome": "BeatrizDias Ribeiro Lima",
+        "Idade": "45.0",
+        "Localização(Cidade, Estado)": [
+            "Brasília",
+            "DF"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "7f1d1affab554901a09249ebc4a82d3c",
+        "Email": "",
+        "DataDeNascimento": "1979-04-04",
+        "Hobbies": [
+            "natação",
+            "cozinhar",
+            "fotografia",
+            "pintura"
+        ],
+        "Coding": [],
+        "Jogos(Nome, Plataforma)": [],
+        "ano_nascimento": 1979
+    },
+    {
+        "Nome": "LarissaAlmeida Rodrigues",
+        "Idade": "36.0",
+        "Localização(Cidade, Estado)": [
+            "Juiz de Fora",
+            "MG"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "80f1094f6b4a4d04a52483991b910c1f",
+        "Email": "larissah1@randommail.com",
+        "DataDeNascimento": "1988-06-06",
+        "Hobbies": [
+            "fotografia"
+        ],
+        "Coding": [
+            "Python",
+            "C++",
+            "Java",
+            "Go"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "The Witcher 3",
+                "Xbox One"
+            ],
+            [
+                "Among Us",
+                "Mobile"
+            ]
+        ],
+        "ano_nascimento": 1988
+    },
+    {
+        "Nome": "RafaelOliveira Souza Santos",
+        "Idade": "42.0",
+        "Localização(Cidade, Estado)": [
+            "Recife",
+            "PE"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "e4a18c04af0642e089f9f8dd260bb647",
+        "Email": "rafaelav@inbox.org",
+        "DataDeNascimento": "1982-09-26",
+        "Hobbies": [
+            "futebol",
+            "música",
+            "pintura",
+            "cinema"
+        ],
+        "Coding": [
+            "Go",
+            "Kotlin",
+            "Ruby"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "GTA V",
+                "PlayStation 4"
+            ]
+        ],
+        "ano_nascimento": 1982
+    },
+    {
+        "Nome": "LuísOliveira",
+        "Idade": "38.0",
+        "Localização(Cidade, Estado)": [
+            "Rio de Janeiro",
+            "RJ"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "4f68e63fc41840488b8a2a869edbdc2f",
+        "Email": "luís8@inbox.org",
+        "DataDeNascimento": "1986-07-21",
+        "Hobbies": [
+            "leitura"
+        ],
+        "Coding": [
+            "C++",
+            "Java",
+            "C#",
+            "Ruby"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "The Witcher 3",
+                "Xbox One"
+            ],
+            [
+                "GTA V",
+                "PlayStation 4"
+            ]
+        ],
+        "ano_nascimento": 1986
+    },
+    {
+        "Nome": "PedroCarvalho Araújo",
+        "Idade": "31.0",
+        "Localização(Cidade, Estado)": [
+            "Juiz de Fora",
+            "MG"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "82e3e81957a94e1c9c4de79a94d3d6b6",
+        "Email": "pedrog@mailservice.com",
+        "DataDeNascimento": "1993-03-22",
+        "Hobbies": [
+            "futebol",
+            "fotografia",
+            "natação",
+            "leitura",
+            "cozinhar"
+        ],
+        "Coding": [
+            "Kotlin",
+            "Java",
+            "Swift",
+            "Ruby",
+            "Go"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Fortnite",
+                "PlayStation 4"
+            ]
+        ],
+        "ano_nascimento": 1993
+    },
+    {
+        "Nome": "LarissaCorreia Martins",
+        "Idade": "41.0",
+        "Localização(Cidade, Estado)": [
+            "Curitiba",
+            "PR"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "706c7a64b2e34460bc1c79d90d794c86",
+        "Email": "larissa8@mailservice.com",
+        "DataDeNascimento": "1983-03-07",
+        "Hobbies": [],
+        "Coding": [
+            "Kotlin"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "League of Legends",
+                "PC"
+            ],
+            [
+                "The Witcher 3",
+                "Xbox One"
+            ],
+            [
+                "Overwatch",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 1983
+    },
+    {
+        "Nome": "AnaBarbosa Araújo",
+        "Idade": "41.0",
+        "Localização(Cidade, Estado)": [
+            "Rio de Janeiro",
+            "RJ"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "7ca9ed19b7f7415483bff5816e0eaf94",
+        "Email": "anazq@randommail.com",
+        "DataDeNascimento": "1982-11-06",
+        "Hobbies": [],
+        "Coding": [
+            "Python",
+            "Kotlin",
+            "Swift",
+            "C++",
+            "PHP"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Apex Legends",
+                "PC"
+            ],
+            [
+                "The Witcher 3",
+                "Xbox One"
+            ],
+            [
+                "Minecraft",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 1983
+    },
+    {
+        "Nome": "LuísDias Souza Barbosa",
+        "Idade": "44.0",
+        "Localização(Cidade, Estado)": [
+            "Salvador",
+            "BA"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "4d79aeff7b454b58a96e9a2b0c3bd65f",
+        "Email": "luís3j@randommail.com",
+        "DataDeNascimento": "1980-08-22",
+        "Hobbies": [],
+        "Coding": [
+            "PHP"
+        ],
+        "Jogos(Nome, Plataforma)": [],
+        "ano_nascimento": 1980
+    },
+    {
+        "Nome": "BrunoPereira",
+        "Idade": "43.0",
+        "Localização(Cidade, Estado)": [
+            "Campinas",
+            "SP"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "0dc56591c6154ac5bdc120ac72df9fcb",
+        "Email": "bruno8@randommail.com",
+        "DataDeNascimento": "1981-04-14",
+        "Hobbies": [
+            "música",
+            "cozinhar",
+            "cinema"
+        ],
+        "Coding": [
+            "Swift",
+            "Python",
+            "Ruby",
+            "Go",
+            "Java"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Cyberpunk 2077",
+                "PC"
+            ],
+            [
+                "Among Us",
+                "Mobile"
+            ],
+            [
+                "Valorant",
+                "PC"
+            ],
+            [
+                "Overwatch",
+                "PC"
+            ],
+            [
+                "League of Legends",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 1981
+    },
+    {
+        "Nome": "FernandaCorreia",
+        "Idade": "29.0",
+        "Localização(Cidade, Estado)": [
+            "Juiz de Fora",
+            "MG"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "1fe2907335f24441960ef3588074f98b",
+        "Email": "fernandac@example.com",
+        "DataDeNascimento": "",
+        "Hobbies": [],
+        "Coding": [
+            "Python",
+            "C#",
+            "PHP",
+            "JavaScript"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Minecraft",
+                "PC"
+            ],
+            [
+                "Overwatch",
+                "PC"
+            ],
+            [
+                "Valorant",
+                "PC"
+            ],
+            [
+                "Cyberpunk 2077",
+                "PC"
+            ],
+            [
+                "GTA V",
+                "PlayStation 4"
+            ]
+        ],
+        "ano_nascimento": 1995
+    },
+    {
+        "Nome": "LucasSouza Almeida",
+        "Idade": "45.0",
+        "Localização(Cidade, Estado)": [
+            "São Paulo",
+            "SP"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "af20af1956da4a71b95fb4d9c3d42a77",
+        "Email": "lucas5@randommail.com",
+        "DataDeNascimento": "1979-08-03",
+        "Hobbies": [
+            "música",
+            "viagem",
+            "cinema",
+            "natação",
+            "fotografia"
+        ],
+        "Coding": [
+            "C#",
+            "C++"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Cyberpunk 2077",
+                "PC"
+            ],
+            [
+                "Valorant",
+                "PC"
+            ],
+            [
+                "League of Legends",
+                "PC"
+            ],
+            [
+                "GTA V",
+                "PlayStation 4"
+            ],
+            [
+                "Overwatch",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 1979
+    },
+    {
+        "Nome": "JoãoAraújo Silva",
+        "Idade": "44.0",
+        "Localização(Cidade, Estado)": [
+            "Volta Redonda",
+            "RJ"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "e3cf6cf458ad487cb78d6439197f3b67",
+        "Email": "joãow@inbox.org",
+        "DataDeNascimento": "1980-04-11",
+        "Hobbies": [
+            "viagem",
+            "pintura",
+            "natação",
+            "futebol"
+        ],
+        "Coding": [
+            "Ruby",
+            "Swift",
+            "PHP",
+            "Python",
+            "Kotlin"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "The Witcher 3",
+                "Xbox One"
+            ],
+            [
+                "Valorant",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 1980
+    },
+    {
+        "Nome": "PedroRibeiro",
+        "Idade": "48.0",
+        "Localização(Cidade, Estado)": [
+            "Rio de Janeiro",
+            "RJ"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "b25c3e88f62942c0b7a31d6ac30840e8",
+        "Email": "pedroi@freemail.com",
+        "DataDeNascimento": "1976-04-19",
+        "Hobbies": [
+            "ciclismo"
+        ],
+        "Coding": [
+            "Go",
+            "JavaScript",
+            "PHP",
+            "Swift"
+        ],
+        "Jogos(Nome, Plataforma)": [],
+        "ano_nascimento": 1976
+    },
+    {
+        "Nome": "PedroAraújo Dias Gomes",
+        "Idade": "40.0",
+        "Localização(Cidade, Estado)": [
+            "Petropolis",
+            "RJ"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "9fd518f33fcd40fcb1935130b50ad82a",
+        "Email": "pedroh@example.com",
+        "DataDeNascimento": "1984-07-10",
+        "Hobbies": [],
+        "Coding": [
+            "PHP",
+            "Ruby",
+            "Java",
+            "JavaScript"
+        ],
+        "Jogos(Nome, Plataforma)": [],
+        "ano_nascimento": 1984
+    },
+    {
+        "Nome": "AnaBarbosa",
+        "Idade": "45.0",
+        "Localização(Cidade, Estado)": [
+            "Juiz de Fora",
+            ""
+        ],
+        "Amigos(Lista)": null,
+        "ID": "cc06309be982434b8eef8c8e4dc7744b",
+        "Email": "ana7n@mailservice.com",
+        "DataDeNascimento": "1979-06-11",
+        "Hobbies": [
+            "ciclismo",
+            "fotografia"
+        ],
+        "Coding": [
+            "C++",
+            "PHP",
+            "Ruby",
+            "Go",
+            "C#"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Overwatch",
+                "PC"
+            ],
+            [
+                "Apex Legends",
+                "PC"
+            ],
+            [
+                "Minecraft",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 1979
+    },
+    {
+        "Nome": "RafaelCarvalho",
+        "Idade": "27.0",
+        "Localização(Cidade, Estado)": [
+            "São Paulo",
+            "SP"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "803061006d124878b91f09a3d30ca848",
+        "Email": "rafaelpc4@freemail.com",
+        "DataDeNascimento": "1997-01-06",
+        "Hobbies": [
+            "pintura"
+        ],
+        "Coding": [
+            "PHP"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "The Witcher 3",
+                "Xbox One"
+            ],
+            [
+                "Overwatch",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 1997
+    },
+    {
+        "Nome": "LarissaGomes Moraes",
+        "Idade": "33.0",
+        "Localização(Cidade, Estado)": [
+            "Juiz de Fora",
+            "MG"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "3923abfd30a44acc802eb536112b6d17",
+        "Email": "larissawvv@fastmail.com",
+        "DataDeNascimento": "1991-03-11",
+        "Hobbies": [
+            "ciclismo",
+            "natação",
+            "música",
+            "cinema",
+            "viagem"
+        ],
+        "Coding": [],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "GTA V",
+                "PlayStation 4"
+            ],
+            [
+                "League of Legends",
+                "PC"
+            ],
+            [
+                "Apex Legends",
+                "PC"
+            ],
+            [
+                "Valorant",
+                "PC"
+            ],
+            [
+                "Cyberpunk 2077",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 1991
+    },
+    {
+        "Nome": "LuísAlmeida Gomes Ribeiro",
+        "Idade": 2024,
+        "Localização(Cidade, Estado)": [
+            "Recife",
+            "PE"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "198a00dece454902b77f02fae487c5c6",
+        "Email": "luísl4@fastmail.com",
+        "DataDeNascimento": "1980-12-27",
+        "Hobbies": [
+            "pintura"
+        ],
+        "Coding": [
+            "Python",
+            "Java"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Fortnite",
+                "PlayStation 4"
+            ]
+        ],
+        "ano_nascimento": 0
+    },
+    {
+        "Nome": "PedroSouza Oliveira",
+        "Idade": "20.0",
+        "Localização(Cidade, Estado)": [
+            "Juiz de Fora",
+            "MG"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "79e629b280134a629cfa788833232844",
+        "Email": "pedrosq@fastmail.com",
+        "DataDeNascimento": "2003-11-12",
+        "Hobbies": [
+            "música",
+            "natação",
+            "ciclismo"
+        ],
+        "Coding": [
+            "Go",
+            "PHP"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Fortnite",
+                "PlayStation 4"
+            ],
+            [
+                "Overwatch",
+                "PC"
+            ],
+            [
+                "Among Us",
+                "Mobile"
+            ],
+            [
+                "Valorant",
+                "PC"
+            ],
+            [
+                "The Witcher 3",
+                "Xbox One"
+            ]
+        ],
+        "ano_nascimento": 2004
+    },
+    {
+        "Nome": "LucasCarvalho Santos Fernandes",
+        "Idade": "25.0",
+        "Localização(Cidade, Estado)": [
+            "São Paulo",
+            "SP"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "fc1c2dc67a4c483883031eaf0ea13ced",
+        "Email": "lucas8qn@example.com",
+        "DataDeNascimento": "1999-09-04",
+        "Hobbies": [
+            "música"
+        ],
+        "Coding": [
+            "Swift",
+            "PHP",
+            "JavaScript"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Among Us",
+                "Mobile"
+            ],
+            [
+                "League of Legends",
+                "PC"
+            ],
+            [
+                "The Witcher 3",
+                "Xbox One"
+            ],
+            [
+                "Overwatch",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 1999
+    },
+    {
+        "Nome": "RafaelRibeiro Moraes",
+        "Idade": "22.0",
+        "Localização(Cidade, Estado)": [
+            "Juiz de Fora",
+            "MG"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "f590b9d8c13b4745894cd45fda60845e",
+        "Email": "rafaelkk@mailservice.com",
+        "DataDeNascimento": "2002-01-24",
+        "Hobbies": [],
+        "Coding": [
+            "Ruby",
+            "PHP",
+            "Python",
+            "Kotlin"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Fortnite",
+                "PlayStation 4"
+            ]
+        ],
+        "ano_nascimento": 2002
+    },
+    {
+        "Nome": "GuilhermeRocha",
+        "Idade": 2024,
+        "Localização(Cidade, Estado)": [
+            "Fortaleza",
+            "CE"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "f62fbd1f51c043de9c645bfe68f50717",
+        "Email": "guilherme1@inbox.org",
+        "DataDeNascimento": "1993-05-14",
+        "Hobbies": [
+            "pintura"
+        ],
+        "Coding": [
+            "JavaScript",
+            "C++"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Cyberpunk 2077",
+                "PC"
+            ],
+            [
+                "The Witcher 3",
+                "Xbox One"
+            ],
+            [
+                "Minecraft",
+                "PC"
+            ],
+            [
+                "Valorant",
+                "PC"
+            ],
+            [
+                "Fortnite",
+                "PlayStation 4"
+            ]
+        ],
+        "ano_nascimento": 0
+    },
+    {
+        "Nome": "PedroAlmeida",
+        "Idade": "18.0",
+        "Localização(Cidade, Estado)": [
+            "Campinas",
+            "SP"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "903f572e61c44a48862a1abbef04a1ed",
+        "Email": "pedro9@randommail.com",
+        "DataDeNascimento": "2006-05-04",
+        "Hobbies": [
+            "música",
+            "cozinhar",
+            "fotografia",
+            "viagem",
+            "natação"
+        ],
+        "Coding": [
+            "C#",
+            "JavaScript",
+            "PHP"
+        ],
+        "Jogos(Nome, Plataforma)": [],
+        "ano_nascimento": 2006
+    },
+    {
+        "Nome": "AnaCarvalho Moraes",
+        "Idade": "32.0",
+        "Localização(Cidade, Estado)": [
+            "Salvador",
+            "BA"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "63700c150b0a46c8ad0379570e22151c",
+        "Email": "anaro5@fastmail.com",
+        "DataDeNascimento": "2024-07-22",
+        "Hobbies": [
+            "cozinhar"
+        ],
+        "Coding": [
+            "Ruby",
+            "PHP",
+            "C++"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Apex Legends",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 1992
+    },
+    {
+        "Nome": "AnaDias",
+        "Idade": "20.0",
+        "Localização(Cidade, Estado)": [
+            "Volta Redonda",
+            "RJ"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "33c16305e33e4cedb4c44a49184a53ed",
+        "Email": "anak2@fastmail.com",
+        "DataDeNascimento": "31/02/2000",
+        "Hobbies": [
+            "fotografia"
+        ],
+        "Coding": [
+            "C#"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "GTA V",
+                "PlayStation 4"
+            ],
+            [
+                "Among Us",
+                "Mobile"
+            ],
+            [
+                "Apex Legends",
+                "PC"
+            ],
+            [
+                "Valorant",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 2004
+    },
+    {
+        "Nome": "MatheusSilva",
+        "Idade": "19.0",
+        "Localização(Cidade, Estado)": [
+            "Fortaleza",
+            "CE"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "5390c6c2f72641f9979ff227c6791a2a",
+        "Email": "matheusz1@inbox.org",
+        "DataDeNascimento": "2004-12-23",
+        "Hobbies": [
+            "pintura",
+            "leitura",
+            "futebol"
+        ],
+        "Coding": [
+            "Python"
+        ],
+        "Jogos(Nome, Plataforma)": [],
+        "ano_nascimento": 2005
+    },
+    {
+        "Nome": "LuísBarbosa Rocha Gomes",
+        "Idade": "21.0",
+        "Localização(Cidade, Estado)": [
+            "Petropolis",
+            "RJ"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "bedaa13c3ae84a60a96bef01b4aba868",
+        "Email": "luísy7r@mailservice.com",
+        "DataDeNascimento": "2003-03-20",
+        "Hobbies": [
+            "futebol",
+            "fotografia",
+            "música",
+            "leitura"
+        ],
+        "Coding": [
+            "Ruby"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Fortnite",
+                "PlayStation 4"
+            ],
+            [
+                "Apex Legends",
+                "PC"
+            ],
+            [
+                "Overwatch",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 2003
+    },
+    {
+        "Nome": "CarlosRocha",
+        "Idade": "48.0",
+        "Localização(Cidade, Estado)": [
+            "São Paulo",
+            ""
+        ],
+        "Amigos(Lista)": null,
+        "ID": "41e598ad0dfa4903a2cebbdcf78e3444",
+        "Email": "carlosc@randommail.com",
+        "DataDeNascimento": "1976-09-03",
+        "Hobbies": [
+            "viagem",
+            "leitura",
+            "ciclismo"
+        ],
+        "Coding": [
+            "Python",
+            "Kotlin",
+            "C++",
+            "Ruby"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "League of Legends",
+                "PC"
+            ],
+            [
+                "The Witcher 3",
+                "Xbox One"
+            ]
+        ],
+        "ano_nascimento": 1976
+    },
+    {
+        "Nome": "PedroLima Dias",
+        "Idade": 2024,
+        "Localização(Cidade, Estado)": [
+            "Juiz de Fora",
+            "MG"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "cc62b881fb104e08b8ddcc2b1dc1ba3f",
+        "Email": "maria.santos@",
+        "DataDeNascimento": "2003-03-16",
+        "Hobbies": [
+            "pintura",
+            "fotografia",
+            "futebol",
+            "cinema",
+            "leitura"
+        ],
+        "Coding": [
+            "C#"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Overwatch",
+                "PC"
+            ],
+            [
+                "GTA V",
+                "PlayStation 4"
+            ],
+            [
+                "Among Us",
+                "Mobile"
+            ]
+        ],
+        "ano_nascimento": 0
+    },
+    {
+        "Nome": "RafaelGomes",
+        "Idade": "37.0",
+        "Localização(Cidade, Estado)": [
+            "Brasília",
+            "DF"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "5f7b38ea53d942869da7409ee3c2f2fa",
+        "Email": "rafaelfwk@webmail.net",
+        "DataDeNascimento": "1987-08-19",
+        "Hobbies": [
+            "cinema",
+            "viagem",
+            "leitura",
+            "cozinhar",
+            "ciclismo"
+        ],
+        "Coding": [
+            "Ruby",
+            "Java",
+            "C#"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Apex Legends",
+                "PC"
+            ],
+            [
+                "GTA V",
+                "PlayStation 4"
+            ],
+            [
+                "Fortnite",
+                "PlayStation 4"
+            ],
+            [
+                "Valorant",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 1987
+    },
+    {
+        "Nome": "LarissaPereira Carvalho",
+        "Idade": "30.0",
+        "Localização(Cidade, Estado)": [
+            "Petropolis",
+            "RJ"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "2aca6f5a155c4d4b83448f455edfabd7",
+        "Email": "larissaq@example.com",
+        "DataDeNascimento": "1994-10-04",
+        "Hobbies": [
+            "pintura"
+        ],
+        "Coding": [],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Fortnite",
+                "PlayStation 4"
+            ],
+            [
+                "League of Legends",
+                "PC"
+            ],
+            [
+                "The Witcher 3",
+                "Xbox One"
+            ]
+        ],
+        "ano_nascimento": 1994
+    },
+    {
+        "Nome": "LucasDias Martins Lima",
+        "Idade": "30.0",
+        "Localização(Cidade, Estado)": [
+            "São Paulo",
+            "SP"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "bbd24e833cad49af991fe00f2e542646",
+        "Email": "lucaso0p@freemail.com",
+        "DataDeNascimento": "1994-05-21",
+        "Hobbies": [
+            "viagem",
+            "leitura",
+            "cozinhar",
+            "futebol"
+        ],
+        "Coding": [
+            "C#",
+            "Go",
+            "Java"
+        ],
+        "Jogos(Nome, Plataforma)": [],
+        "ano_nascimento": 1994
+    },
+    {
+        "Nome": "JuliaCosta Carvalho Lima",
+        "Idade": "44.0",
+        "Localização(Cidade, Estado)": [
+            "Volta Redonda",
+            "RJ"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "3c63a716ac33413c977b62e1c8b605ba",
+        "Email": "juliar@mailservice.com",
+        "DataDeNascimento": "1980-04-23",
+        "Hobbies": [],
+        "Coding": [
+            "JavaScript",
+            "Go",
+            "PHP",
+            "C++",
+            "Ruby"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Valorant",
+                "PC"
+            ],
+            [
+                "League of Legends",
+                "PC"
+            ],
+            [
+                "Apex Legends",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 1980
+    },
+    {
+        "Nome": "JoãoRodrigues Araújo",
+        "Idade": "24.0",
+        "Localização(Cidade, Estado)": [
+            "Fortaleza",
+            "CE"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "888f5eb264d84db19fdc826ab1a4fcf8",
+        "Email": "joãon@webmail.net",
+        "DataDeNascimento": "2000-01-17",
+        "Hobbies": [
+            "pintura",
+            "música",
+            "cinema",
+            "cozinhar",
+            "viagem"
+        ],
+        "Coding": [
+            "JavaScript",
+            "Go",
+            "Kotlin"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Valorant",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 2000
+    },
+    {
+        "Nome": "CamilaSilva Carvalho",
+        "Idade": 2024,
+        "Localização(Cidade, Estado)": [
+            "Fortaleza",
+            "CE"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "28eaab09f84542a3b2075a8382c387f8",
+        "Email": "camilar@inbox.org",
+        "DataDeNascimento": "1984-11-21",
+        "Hobbies": [
+            "pintura",
+            "música",
+            "cozinhar",
+            "fotografia",
+            "natação"
+        ],
+        "Coding": [
+            "Swift",
+            "PHP",
+            "Python"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Overwatch",
+                "PC"
+            ],
+            [
+                "GTA V",
+                "PlayStation 4"
+            ],
+            [
+                "Apex Legends",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 0
+    },
+    {
+        "Nome": "BeatrizAraújo Souza",
+        "Idade": "31.0",
+        "Localização(Cidade, Estado)": [
+            "Porto Alegre",
+            "RS"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "0465cf5aee534294b2b0d11183ce56d8",
+        "Email": "beatriz00q@inbox.org",
+        "DataDeNascimento": "1993-06-01",
+        "Hobbies": [
+            "fotografia",
+            "viagem",
+            "cozinhar",
+            "natação",
+            "leitura"
+        ],
+        "Coding": [
+            "Ruby",
+            "Go",
+            "JavaScript",
+            "Java",
+            "PHP"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Among Us",
+                "Mobile"
+            ],
+            [
+                "Valorant",
+                "PC"
+            ],
+            [
+                "Overwatch",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 1993
+    },
+    {
+        "Nome": "CarlosRibeiro Rocha Rodrigues",
+        "Idade": "26.0",
+        "Localização(Cidade, Estado)": [
+            "Porto Alegre",
+            "RS"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "cdf2f91d894b495691a272c23dcfed38",
+        "Email": "carlosvik@fastmail.com",
+        "DataDeNascimento": "1997-11-03",
+        "Hobbies": [
+            "viagem",
+            "fotografia",
+            "ciclismo",
+            "cozinhar",
+            "pintura"
+        ],
+        "Coding": [],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Among Us",
+                "Mobile"
+            ],
+            [
+                "Overwatch",
+                "PC"
+            ],
+            [
+                "Fortnite",
+                "PlayStation 4"
+            ]
+        ],
+        "ano_nascimento": 1998
+    },
+    {
+        "Nome": "LuísRibeiro Lima Rodrigues",
+        "Idade": "30.0",
+        "Localização(Cidade, Estado)": [
+            "São Paulo",
+            "SP"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "449f47b627ed465584440e2ad5f83308",
+        "Email": "luísu@mailservice.com",
+        "DataDeNascimento": "1993-11-14",
+        "Hobbies": [
+            "leitura",
+            "ciclismo",
+            "futebol",
+            "fotografia"
+        ],
+        "Coding": [
+            "C#",
+            "PHP",
+            "Go",
+            "Python",
+            "JavaScript"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Apex Legends",
+                "PC"
+            ],
+            [
+                "Valorant",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 1994
+    },
+    {
+        "Nome": "CamilaSouza",
+        "Idade": "32.0",
+        "Localização(Cidade, Estado)": [
+            "Brasília",
+            "DF"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "3bc455ac6c234c8982b4130684eaf950",
+        "Email": "camilawce@webmail.net",
+        "DataDeNascimento": "1992-09-14",
+        "Hobbies": [
+            "cozinhar",
+            "pintura"
+        ],
+        "Coding": [
+            "C++",
+            "Ruby",
+            "Kotlin",
+            "Java",
+            "JavaScript"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Fortnite",
+                "PlayStation 4"
+            ],
+            [
+                "The Witcher 3",
+                "Xbox One"
+            ],
+            [
+                "Valorant",
+                "PC"
+            ],
+            [
+                "Overwatch",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 1992
+    },
+    {
+        "Nome": "BeatrizAlmeida Souza Santos",
+        "Idade": "23.0",
+        "Localização(Cidade, Estado)": [
+            "Manaus",
+            "AM"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "476fda27277e49aab4e7dfebfc2301d3",
+        "Email": "beatrizoo@fastmail.com",
+        "DataDeNascimento": "2001-10-21",
+        "Hobbies": [
+            "futebol",
+            "viagem"
+        ],
+        "Coding": [
+            "Go",
+            "Kotlin",
+            "C#",
+            "Python"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Apex Legends",
+                "PC"
+            ],
+            [
+                "Fortnite",
+                "PlayStation 4"
+            ],
+            [
+                "Cyberpunk 2077",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 2001
+    },
+    {
+        "Nome": "CamilaPereira Martins Rodrigues",
+        "Idade": "24.0",
+        "Localização(Cidade, Estado)": [
+            "Campinas",
+            "SP"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "880d13b398c041e7b052afaceb705c83",
+        "Email": "camila9x@mailservice.com",
+        "DataDeNascimento": "2000-01-06",
+        "Hobbies": [],
+        "Coding": [
+            "JavaScript",
+            "Kotlin",
+            "PHP",
+            "Python"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Among Us",
+                "Mobile"
+            ],
+            [
+                "Fortnite",
+                "PlayStation 4"
+            ],
+            [
+                "Minecraft",
+                "PC"
+            ],
+            [
+                "League of Legends",
+                "PC"
+            ],
+            [
+                "Overwatch",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 2000
+    },
+    {
+        "Nome": "LuísCarvalho Fernandes Pereira",
+        "Idade": "45.0",
+        "Localização(Cidade, Estado)": [
+            "São Paulo",
+            "SP"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "b72e9250d97043c484e0f1f38056785a",
+        "Email": "luís2fk@webmail.net",
+        "DataDeNascimento": "1979-09-02",
+        "Hobbies": [],
+        "Coding": [
+            "Go",
+            "C#"
+        ],
+        "Jogos(Nome, Plataforma)": [],
+        "ano_nascimento": 1979
+    },
+    {
+        "Nome": "MatheusFernandes",
+        "Idade": "32.0",
+        "Localização(Cidade, Estado)": [
+            "Curitiba",
+            "PR"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "a769dfda1ca94b5cb0537b3ff7157a8a",
+        "Email": "matheus4@randommail.com",
+        "DataDeNascimento": "1991-12-11",
+        "Hobbies": [
+            "leitura",
+            "natação"
+        ],
+        "Coding": [
+            "Swift",
+            "Java"
+        ],
+        "Jogos(Nome, Plataforma)": [],
+        "ano_nascimento": 1992
+    },
+    {
+        "Nome": "LarissaSantos Ribeiro",
+        "Idade": "47.0",
+        "Localização(Cidade, Estado)": [
+            "Porto Alegre",
+            "RS"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "ea69129e0b28420a95874bcef5debd91",
+        "Email": "larissarnl@randommail.com",
+        "DataDeNascimento": "1977-08-05",
+        "Hobbies": [
+            "ciclismo",
+            "cozinhar"
+        ],
+        "Coding": [
+            "PHP",
+            "JavaScript",
+            "C++",
+            "Python"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Overwatch",
+                "PC"
+            ],
+            [
+                "Fortnite",
+                "PlayStation 4"
+            ]
+        ],
+        "ano_nascimento": 1977
+    },
+    {
+        "Nome": "CamilaOliveira Costa Moraes",
+        "Idade": "32.0",
+        "Localização(Cidade, Estado)": [
+            "Porto Alegre",
+            "RS"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "88e69e45cfb949dc9f54464c307d70dc",
+        "Email": "camilaphh@fastmail.com",
+        "DataDeNascimento": "1992-03-06",
+        "Hobbies": [
+            "futebol",
+            "música",
+            "natação"
+        ],
+        "Coding": [],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Among Us",
+                "Mobile"
+            ],
+            [
+                "Minecraft",
+                "PC"
+            ],
+            [
+                "Fortnite",
+                "PlayStation 4"
+            ]
+        ],
+        "ano_nascimento": 1992
+    },
+    {
+        "Nome": "BrunoCorreia Costa",
+        "Idade": 2024,
+        "Localização(Cidade, Estado)": [
+            "Curitiba",
+            "PR"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "e30a3cc404c0494c82beac0fad983f3b",
+        "Email": "bruno53@fastmail.com",
+        "DataDeNascimento": "2003-08-11",
+        "Hobbies": [
+            "cinema",
+            "leitura"
+        ],
+        "Coding": [
+            "JavaScript"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "League of Legends",
+                "PC"
+            ],
+            [
+                "The Witcher 3",
+                "Xbox One"
+            ],
+            [
+                "Fortnite",
+                "PlayStation 4"
+            ],
+            [
+                "Minecraft",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 0
+    },
+    {
+        "Nome": "PedroAraújo Costa",
+        "Idade": 2024,
+        "Localização(Cidade, Estado)": [
+            "Brasília",
+            "DF"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "ad4d33bd0b134ad2b2a6afd577e1ecfd",
+        "Email": "",
+        "DataDeNascimento": "1995-12-16",
+        "Hobbies": [
+            "ciclismo",
+            "cinema"
+        ],
+        "Coding": [
+            "JavaScript",
+            "PHP",
+            "Swift"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Fortnite",
+                "PlayStation 4"
+            ]
+        ],
+        "ano_nascimento": 0
+    },
+    {
+        "Nome": "CarlosSantos Gomes",
+        "Idade": "27.0",
+        "Localização(Cidade, Estado)": [
+            "São Paulo",
+            "SP"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "44d9b7d8bc7d4a129a7427e808598e22",
+        "Email": "carlosaa2@randommail.com",
+        "DataDeNascimento": "1997-05-17",
+        "Hobbies": [
+            "cozinhar",
+            "pintura"
+        ],
+        "Coding": [],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "League of Legends",
+                "PC"
+            ],
+            [
+                "Apex Legends",
+                "PC"
+            ],
+            [
+                "Cyberpunk 2077",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 1997
+    },
+    {
+        "Nome": "MarianaAraújo",
+        "Idade": "37.0",
+        "Localização(Cidade, Estado)": [
+            "Fortaleza",
+            "CE"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "4d7f5d6eea9143f8af9431c86d19fd73",
+        "Email": "marianafyu@mailservice.com",
+        "DataDeNascimento": "1987-04-21",
+        "Hobbies": [
+            "natação"
+        ],
+        "Coding": [
+            "Swift",
+            "Ruby",
+            "C++"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "GTA V",
+                "PlayStation 4"
+            ],
+            [
+                "Cyberpunk 2077",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 1987
+    },
+    {
+        "Nome": "PedroSilva",
+        "Idade": "39.0",
+        "Localização(Cidade, Estado)": [
+            "Porto Alegre",
+            "RS"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "8298cf62649f4a1d98e77b99f36fda3c",
+        "Email": "pedroy4@mailservice.com",
+        "DataDeNascimento": "1985-04-12",
+        "Hobbies": [
+            "cinema",
+            "pintura",
+            "futebol",
+            "cozinhar"
+        ],
+        "Coding": [
+            "Swift",
+            "Python"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "The Witcher 3",
+                "Xbox One"
+            ]
+        ],
+        "ano_nascimento": 1985
+    },
+    {
+        "Nome": "LarissaCosta",
+        "Idade": "29.0",
+        "Localização(Cidade, Estado)": [
+            "Porto Alegre",
+            "RS"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "b9b49a5818cf41f8ad29b0f61643b374",
+        "Email": "larissaosc@example.com",
+        "DataDeNascimento": "1994-12-22",
+        "Hobbies": [
+            "ciclismo"
+        ],
+        "Coding": [
+            "Swift",
+            "Go",
+            "PHP"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "GTA V",
+                "PlayStation 4"
+            ],
+            [
+                "Minecraft",
+                "PC"
+            ],
+            [
+                "The Witcher 3",
+                "Xbox One"
+            ],
+            [
+                "League of Legends",
+                "PC"
+            ],
+            [
+                "Cyberpunk 2077",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 1995
+    },
+    {
+        "Nome": "JuliaMartins",
+        "Idade": "44.0",
+        "Localização(Cidade, Estado)": [
+            "Fortaleza",
+            "CE"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "9a510b88728a405eb0ecbff370bf9d3c",
+        "Email": "juliaxmw@inbox.org",
+        "DataDeNascimento": "1980-02-20",
+        "Hobbies": [
+            "cinema",
+            "música",
+            "cozinhar"
+        ],
+        "Coding": [
+            "Java"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "The Witcher 3",
+                "Xbox One"
+            ],
+            [
+                "Valorant",
+                "PC"
+            ],
+            [
+                "Apex Legends",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 1980
+    },
+    {
+        "Nome": "GuilhermeCosta Dias",
+        "Idade": "44.0",
+        "Localização(Cidade, Estado)": [
+            "",
+            ""
+        ],
+        "Amigos(Lista)": null,
+        "ID": "a75baddb8e3046979aeb560741bf55bc",
+        "Email": "guilhermeoj@inbox.org",
+        "DataDeNascimento": "1980-06-21",
+        "Hobbies": [],
+        "Coding": [
+            "Swift",
+            "Java",
+            "JavaScript",
+            "Ruby",
+            "PHP"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Apex Legends",
+                "PC"
+            ],
+            [
+                "Cyberpunk 2077",
+                "PC"
+            ],
+            [
+                "Overwatch",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 1980
+    },
+    {
+        "Nome": "MarianaRibeiro",
+        "Idade": 2024,
+        "Localização(Cidade, Estado)": [
+            "Juiz de Fora",
+            "MG"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "8a962be1bb164af0a1064fa626526073",
+        "Email": "mariana5@randommail.com",
+        "DataDeNascimento": "2000-06-04",
+        "Hobbies": [],
+        "Coding": [
+            "C++"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Overwatch",
+                "PC"
+            ],
+            [
+                "Minecraft",
+                "PC"
+            ],
+            [
+                "Cyberpunk 2077",
+                "PC"
+            ],
+            [
+                "GTA V",
+                "PlayStation 4"
+            ],
+            [
+                "Fortnite",
+                "PlayStation 4"
+            ]
+        ],
+        "ano_nascimento": 0
+    },
+    {
+        "Nome": "AnaMartins Silva",
+        "Idade": "34.0",
+        "Localização(Cidade, Estado)": [
+            "Juiz de Fora",
+            "MG"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "365148c12c2e4516b8d5a8633cf71356",
+        "Email": "ana6wz@fastmail.com",
+        "DataDeNascimento": "1990-10-02",
+        "Hobbies": [
+            "futebol",
+            "música",
+            "fotografia",
+            "natação",
+            "leitura"
+        ],
+        "Coding": [
+            "Java",
+            "Python",
+            "Kotlin",
+            "JavaScript",
+            "PHP"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Fortnite",
+                "PlayStation 4"
+            ],
+            [
+                "The Witcher 3",
+                "Xbox One"
+            ]
+        ],
+        "ano_nascimento": 1990
+    },
+    {
+        "Nome": "MariaFernandes Correia Ribeiro",
+        "Idade": "19.0",
+        "Localização(Cidade, Estado)": [
+            "Rio de Janeiro",
+            "RJ"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "265435ea21134cbc92e570b1ebf11600",
+        "Email": "pedro.oliveiraexample.com",
+        "DataDeNascimento": "2005-03-28",
+        "Hobbies": [
+            "fotografia",
+            "ciclismo",
+            "natação"
+        ],
+        "Coding": [
+            "Ruby",
+            "PHP"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Minecraft",
+                "PC"
+            ],
+            [
+                "Valorant",
+                "PC"
+            ],
+            [
+                "Among Us",
+                "Mobile"
+            ],
+            [
+                "The Witcher 3",
+                "Xbox One"
+            ],
+            [
+                "Cyberpunk 2077",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 2005
+    },
+    {
+        "Nome": "CarlosRocha Martins Souza",
+        "Idade": "22.0",
+        "Localização(Cidade, Estado)": [
+            "Campinas",
+            "SP"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "5c4e3684af6744ec9879c11aad5528ab",
+        "Email": "carlos4@mailservice.com",
+        "DataDeNascimento": "2002-08-09",
+        "Hobbies": [],
+        "Coding": [
+            "Go"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "The Witcher 3",
+                "Xbox One"
+            ]
+        ],
+        "ano_nascimento": 2002
+    },
+    {
+        "Nome": "CarlaRodrigues",
+        "Idade": "48.0",
+        "Localização(Cidade, Estado)": [
+            "Petropolis",
+            "RJ"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "1ef7e977989f40febc07f575b2a6e3c3",
+        "Email": "carla3k@webmail.net",
+        "DataDeNascimento": "1976-06-09",
+        "Hobbies": [
+            "cozinhar"
+        ],
+        "Coding": [
+            "JavaScript",
+            "Swift",
+            "Java"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "GTA V",
+                "PlayStation 4"
+            ],
+            [
+                "The Witcher 3",
+                "Xbox One"
+            ],
+            [
+                "Overwatch",
+                "PC"
+            ],
+            [
+                "Among Us",
+                "Mobile"
+            ]
+        ],
+        "ano_nascimento": 1976
+    },
+    {
+        "Nome": "BeatrizAlmeida Lima Costa",
+        "Idade": "45.0",
+        "Localização(Cidade, Estado)": [
+            "Curitiba",
+            "PR"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "0fb5d971f3274e0caad057a02cca38b1",
+        "Email": "beatrizpc@freemail.com",
+        "DataDeNascimento": "1979-03-23",
+        "Hobbies": [],
+        "Coding": [
+            "Go",
+            "Swift",
+            "Ruby",
+            "C#",
+            "PHP"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Cyberpunk 2077",
+                "PC"
+            ],
+            [
+                "Overwatch",
+                "PC"
+            ],
+            [
+                "Apex Legends",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 1979
+    },
+    {
+        "Nome": "GuilhermeMoraes Souza Santos",
+        "Idade": "33.0",
+        "Localização(Cidade, Estado)": [
+            "Rio de Janeiro",
+            ""
+        ],
+        "Amigos(Lista)": null,
+        "ID": "98808f8d1a1947c0a175d15f231621e2",
+        "Email": "guilherme84d@webmail.net",
+        "DataDeNascimento": "1991-03-25",
+        "Hobbies": [],
+        "Coding": [
+            "C#",
+            "Java",
+            "Python"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "GTA V",
+                "PlayStation 4"
+            ],
+            [
+                "Apex Legends",
+                "PC"
+            ],
+            [
+                "Overwatch",
+                "PC"
+            ],
+            [
+                "Among Us",
+                "Mobile"
+            ]
+        ],
+        "ano_nascimento": 1991
+    },
+    {
+        "Nome": "MatheusCorreia Carvalho",
+        "Idade": "26.0",
+        "Localização(Cidade, Estado)": [
+            "Petropolis",
+            "RJ"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "3ce7ae6141bf46bf8f9afb4147f93158",
+        "Email": "matheus6u@webmail.net",
+        "DataDeNascimento": "1998-10-21",
+        "Hobbies": [
+            "natação",
+            "cinema",
+            "cozinhar",
+            "ciclismo"
+        ],
+        "Coding": [
+            "Java",
+            "JavaScript",
+            "C#"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "League of Legends",
+                "PC"
+            ],
+            [
+                "GTA V",
+                "PlayStation 4"
+            ],
+            [
+                "Apex Legends",
+                "PC"
+            ],
+            [
+                "The Witcher 3",
+                "Xbox One"
+            ]
+        ],
+        "ano_nascimento": 1998
+    },
+    {
+        "Nome": "RafaelOliveira Araújo Dias",
+        "Idade": "38.0",
+        "Localização(Cidade, Estado)": [
+            "Belo Horizonte",
+            "MG"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "581ed33f036e4e32a074aacc2ac19170",
+        "Email": "rafaelbm1@webmail.net",
+        "DataDeNascimento": "1985-12-01",
+        "Hobbies": [
+            "cozinhar",
+            "ciclismo",
+            "cinema",
+            "fotografia",
+            "música"
+        ],
+        "Coding": [
+            "C#",
+            "Ruby"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Overwatch",
+                "PC"
+            ],
+            [
+                "GTA V",
+                "PlayStation 4"
+            ],
+            [
+                "Fortnite",
+                "PlayStation 4"
+            ],
+            [
+                "Minecraft",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 1986
+    },
+    {
+        "Nome": "AnaRocha Carvalho Correia",
+        "Idade": "35.0",
+        "Localização(Cidade, Estado)": [
+            "São Paulo",
+            "SP"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "69852e7981b54dbfa14b8d8938fa8bca",
+        "Email": "anauuy@inbox.org",
+        "DataDeNascimento": "1989-04-27",
+        "Hobbies": [],
+        "Coding": [
+            "Kotlin",
+            "Ruby"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "League of Legends",
+                "PC"
+            ],
+            [
+                "GTA V",
+                "PlayStation 4"
+            ],
+            [
+                "Overwatch",
+                "PC"
+            ],
+            [
+                "Minecraft",
+                "PC"
+            ],
+            [
+                "The Witcher 3",
+                "Xbox One"
+            ]
+        ],
+        "ano_nascimento": 1989
+    },
+    {
+        "Nome": "FernandaLima Costa",
+        "Idade": "41.0",
+        "Localização(Cidade, Estado)": [
+            "Rio de Janeiro",
+            "RJ"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "ec6efaf873ca43bcaac0e584a417f960",
+        "Email": "fernanda8zw@randommail.com",
+        "DataDeNascimento": "1983-06-14",
+        "Hobbies": [
+            "cinema",
+            "ciclismo",
+            "pintura"
+        ],
+        "Coding": [
+            "Ruby",
+            "C#",
+            "Python",
+            "C++",
+            "Kotlin"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Apex Legends",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 1983
+    },
+    {
+        "Nome": "AnaMoraes Souza Rocha",
+        "Idade": "48.0",
+        "Localização(Cidade, Estado)": [
+            "Rio de Janeiro",
+            "RJ"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "362b89ef27514fc887bc6b4102b7e79c",
+        "Email": "anad@webmail.net",
+        "DataDeNascimento": "1976-08-19",
+        "Hobbies": [
+            "cinema",
+            "fotografia",
+            "natação",
+            "viagem",
+            "pintura"
+        ],
+        "Coding": [
+            "Swift",
+            "Kotlin"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "GTA V",
+                "PlayStation 4"
+            ],
+            [
+                "Fortnite",
+                "PlayStation 4"
+            ]
+        ],
+        "ano_nascimento": 1976
+    },
+    {
+        "Nome": "CarlaSouza",
+        "Idade": "20.0",
+        "Localização(Cidade, Estado)": [
+            "Fortaleza",
+            "CE"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "16f6eb050a544eb089744c4fe93eb81b",
+        "Email": "carlafa8@webmail.net",
+        "DataDeNascimento": "2004-03-04",
+        "Hobbies": [],
+        "Coding": [
+            "Go",
+            "C++",
+            "Kotlin",
+            "Java",
+            "Python"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Minecraft",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 2004
+    },
+    {
+        "Nome": "LucasFernandes Santos",
+        "Idade": "28.0",
+        "Localização(Cidade, Estado)": [
+            "Curitiba",
+            "PR"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "19910890c3054dcea78b325b7954d1a8",
+        "Email": "lucasf@webmail.net",
+        "DataDeNascimento": "1996-03-26",
+        "Hobbies": [
+            "cinema",
+            "fotografia"
+        ],
+        "Coding": [
+            "Python",
+            "Kotlin",
+            "Go",
+            "JavaScript"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Among Us",
+                "Mobile"
+            ]
+        ],
+        "ano_nascimento": 1996
+    },
+    {
+        "Nome": "GuilhermeOliveira Barbosa",
+        "Idade": "42.0",
+        "Localização(Cidade, Estado)": [
+            "Campinas",
+            "SP"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "54e3f4a6f4f3418ab5b615841aed1cdf",
+        "Email": "guilhermea3@fastmail.com",
+        "DataDeNascimento": "1981-11-13",
+        "Hobbies": [
+            "cinema"
+        ],
+        "Coding": [
+            "Go",
+            "Java",
+            "Swift",
+            "C++"
+        ],
+        "Jogos(Nome, Plataforma)": [],
+        "ano_nascimento": 1982
+    },
+    {
+        "Nome": "JuliaCarvalho Fernandes Martins",
+        "Idade": "36.0",
+        "Localização(Cidade, Estado)": [
+            "Brasília",
+            "DF"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "6c44dc54459f4800aa51103a79d3540d",
+        "Email": "juliae@inbox.org",
+        "DataDeNascimento": "1988-05-02",
+        "Hobbies": [],
+        "Coding": [
+            "Java"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Minecraft",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 1988
+    },
+    {
+        "Nome": "JuliaAlmeida Lima Carvalho",
+        "Idade": "47.0",
+        "Localização(Cidade, Estado)": [
+            "São Paulo",
+            "SP"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "09e77eeab912499c890a2cbeb633d90e",
+        "Email": "juliagwf@fastmail.com",
+        "DataDeNascimento": "1976-12-21",
+        "Hobbies": [
+            "fotografia",
+            "música",
+            "futebol"
+        ],
+        "Coding": [],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Fortnite",
+                "PlayStation 4"
+            ],
+            [
+                "The Witcher 3",
+                "Xbox One"
+            ]
+        ],
+        "ano_nascimento": 1977
+    },
+    {
+        "Nome": "SofiaCorreia Barbosa Pereira",
+        "Idade": 2024,
+        "Localização(Cidade, Estado)": [
+            "Rio de Janeiro",
+            "RJ"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "081420d8d6cf43868f968a8b22822e00",
+        "Email": "sofiajb@fastmail.com",
+        "DataDeNascimento": "1981-03-06",
+        "Hobbies": [
+            "cinema",
+            "futebol",
+            "fotografia"
+        ],
+        "Coding": [
+            "Python"
+        ],
+        "Jogos(Nome, Plataforma)": [],
+        "ano_nascimento": 0
+    },
+    {
+        "Nome": "LuísPereira",
+        "Idade": "31.0",
+        "Localização(Cidade, Estado)": [
+            "Porto Alegre",
+            "RS"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "6b93af93528f44c9b526c4163e350bc2",
+        "Email": "luísh@inbox.org",
+        "DataDeNascimento": "20.06.1996",
+        "Hobbies": [],
+        "Coding": [
+            "Python",
+            "PHP",
+            "Kotlin",
+            "Go",
+            "Ruby"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "League of Legends",
+                "PC"
+            ],
+            [
+                "GTA V",
+                "PlayStation 4"
+            ],
+            [
+                "Valorant",
+                "PC"
+            ],
+            [
+                "Fortnite",
+                "PlayStation 4"
+            ],
+            [
+                "Apex Legends",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 1993
+    },
+    {
+        "Nome": "AnaRodrigues Gomes",
+        "Idade": "40.0",
+        "Localização(Cidade, Estado)": [
+            "Petropolis",
+            "RJ"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "95c605f20f5e4dbaa22192743c711ae0",
+        "Email": "anahi7@webmail.net",
+        "DataDeNascimento": "1984-08-23",
+        "Hobbies": [
+            "viagem",
+            "futebol",
+            "leitura",
+            "natação"
+        ],
+        "Coding": [
+            "Go",
+            "C#",
+            "Java",
+            "Swift"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Apex Legends",
+                "PC"
+            ],
+            [
+                "Overwatch",
+                "PC"
+            ],
+            [
+                "Valorant",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 1984
+    },
+    {
+        "Nome": "BrunoRibeiro Rocha Almeida",
+        "Idade": "28.0",
+        "Localização(Cidade, Estado)": [
+            "Curitiba",
+            "PR"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "0d72092c4ad8410197720deabed4a72a",
+        "Email": "brunobsz@randommail.com",
+        "DataDeNascimento": "1996-03-05",
+        "Hobbies": [
+            "cozinhar",
+            "viagem",
+            "leitura"
+        ],
+        "Coding": [
+            "Kotlin",
+            "PHP",
+            "Java",
+            "C++"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "GTA V",
+                "PlayStation 4"
+            ],
+            [
+                "Fortnite",
+                "PlayStation 4"
+            ],
+            [
+                "Overwatch",
+                "PC"
+            ],
+            [
+                "Apex Legends",
+                "PC"
+            ],
+            [
+                "Valorant",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 1996
+    },
+    {
+        "Nome": "BrunoDias",
+        "Idade": "40.0",
+        "Localização(Cidade, Estado)": [
+            "Curitiba",
+            "PR"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "cf4f3b4f199c405b8aba6138d2d62f68",
+        "Email": "bruno11@freemail.com",
+        "DataDeNascimento": "1984-05-05",
+        "Hobbies": [
+            "viagem"
+        ],
+        "Coding": [
+            "Go",
+            "Java",
+            "C#",
+            "JavaScript",
+            "Ruby"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Fortnite",
+                "PlayStation 4"
+            ],
+            [
+                "Cyberpunk 2077",
+                "PC"
+            ],
+            [
+                "Among Us",
+                "Mobile"
+            ],
+            [
+                "GTA V",
+                "PlayStation 4"
+            ]
+        ],
+        "ano_nascimento": 1984
+    },
+    {
+        "Nome": "GuilhermeLima Souza Rocha",
+        "Idade": "39.0",
+        "Localização(Cidade, Estado)": [
+            "Manaus",
+            "AM"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "bb4af9b43c12498a8e36a3c1ede17161",
+        "Email": "guilhermela@inbox.org",
+        "DataDeNascimento": "1985-06-26",
+        "Hobbies": [
+            "música",
+            "viagem",
+            "leitura"
+        ],
+        "Coding": [
+            "Kotlin",
+            "Swift",
+            "PHP",
+            "Go"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Valorant",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 1985
+    },
+    {
+        "Nome": "FernandaRibeiro",
+        "Idade": "34.0",
+        "Localização(Cidade, Estado)": [
+            "Volta Redonda",
+            "RJ"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "568dc62075f94a9195e2abb41b51659f",
+        "Email": "fernanda9s5@example.com",
+        "DataDeNascimento": "1990-05-14",
+        "Hobbies": [
+            "cozinhar",
+            "viagem",
+            "pintura"
+        ],
+        "Coding": [
+            "Python",
+            "Swift"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Apex Legends",
+                "PC"
+            ],
+            [
+                "Valorant",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 1990
+    },
+    {
+        "Nome": "RafaelMoraes",
+        "Idade": "31.0",
+        "Localização(Cidade, Estado)": [
+            "Manaus",
+            "AM"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "b38a94a6c90b447f926b44e1f905f033",
+        "Email": "rafaell2@inbox.org",
+        "DataDeNascimento": "1993-07-19",
+        "Hobbies": [
+            "natação",
+            "cozinhar"
+        ],
+        "Coding": [
+            "Kotlin",
+            "Go",
+            "Swift"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Cyberpunk 2077",
+                "PC"
+            ],
+            [
+                "Among Us",
+                "Mobile"
+            ]
+        ],
+        "ano_nascimento": 1993
+    },
+    {
+        "Nome": "MariaSilva",
+        "Idade": "23.0",
+        "Localização(Cidade, Estado)": [
+            "Petropolis",
+            "RJ"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "4da716eaf1a644188d644afa28d9ec58",
+        "Email": "mariaee5@inbox.org",
+        "DataDeNascimento": "2001-03-06",
+        "Hobbies": [
+            "pintura",
+            "ciclismo"
+        ],
+        "Coding": [],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Valorant",
+                "PC"
+            ],
+            [
+                "Among Us",
+                "Mobile"
+            ],
+            [
+                "Overwatch",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 2001
+    },
+    {
+        "Nome": "JuliaRocha Almeida",
+        "Idade": "44.0",
+        "Localização(Cidade, Estado)": [
+            "Rio de Janeiro",
+            "RJ"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "c3ac86604688421fa05c08faf7d7de4b",
+        "Email": "juliakm8@webmail.net",
+        "DataDeNascimento": "1980-01-03",
+        "Hobbies": [
+            "ciclismo",
+            "música",
+            "futebol"
+        ],
+        "Coding": [
+            "C++",
+            "Kotlin",
+            "PHP",
+            "Swift",
+            "C#"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "League of Legends",
+                "PC"
+            ],
+            [
+                "Overwatch",
+                "PC"
+            ],
+            [
+                "Apex Legends",
+                "PC"
+            ],
+            [
+                "Cyberpunk 2077",
+                "PC"
+            ],
+            [
+                "Among Us",
+                "Mobile"
+            ]
+        ],
+        "ano_nascimento": 1980
+    },
+    {
+        "Nome": "RafaelLima Oliveira Barbosa",
+        "Idade": "44.0",
+        "Localização(Cidade, Estado)": [
+            "Salvador",
+            "BA"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "66057ed95410471896ebd7c75c771cd8",
+        "Email": "rafael0@mailservice.com",
+        "DataDeNascimento": "1980-04-19",
+        "Hobbies": [
+            "leitura",
+            "natação",
+            "viagem",
+            "música"
+        ],
+        "Coding": [
+            "JavaScript",
+            "Java",
+            "PHP",
+            "C#",
+            "C++"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Minecraft",
+                "PC"
+            ],
+            [
+                "Fortnite",
+                "PlayStation 4"
+            ],
+            [
+                "Among Us",
+                "Mobile"
+            ]
+        ],
+        "ano_nascimento": 1980
+    },
+    {
+        "Nome": "BeatrizCosta Lima Correia",
+        "Idade": "20.0",
+        "Localização(Cidade, Estado)": [
+            "Juiz de Fora",
+            "MG"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "15786625b48546cd84dea25995d44382",
+        "Email": "beatrizd@webmail.net",
+        "DataDeNascimento": "2004-03-24",
+        "Hobbies": [
+            "cinema",
+            "viagem",
+            "futebol",
+            "música",
+            "ciclismo"
+        ],
+        "Coding": [
+            "Go",
+            "Python"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "GTA V",
+                "PlayStation 4"
+            ],
+            [
+                "Valorant",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 2004
+    },
+    {
+        "Nome": "CarlosRodrigues Pereira",
+        "Idade": "36.0",
+        "Localização(Cidade, Estado)": [
+            "Rio de Janeiro",
+            "RJ"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "313e245cb9b14b3f850d43a08b5d6b01",
+        "Email": "carlosea@webmail.net",
+        "DataDeNascimento": "1988-03-02",
+        "Hobbies": [
+            "música",
+            "viagem"
+        ],
+        "Coding": [],
+        "Jogos(Nome, Plataforma)": [],
+        "ano_nascimento": 1988
+    },
+    {
+        "Nome": "BeatrizCosta Fernandes Martins",
+        "Idade": "26.0",
+        "Localização(Cidade, Estado)": [
+            "Juiz de Fora",
+            "MG"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "275847b935cd4e3e8c7c5113314b3e3b",
+        "Email": "beatriz7u@inbox.org",
+        "DataDeNascimento": "",
+        "Hobbies": [
+            "natação",
+            "fotografia",
+            "música",
+            "futebol"
+        ],
+        "Coding": [
+            "PHP"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Fortnite",
+                "PlayStation 4"
+            ],
+            [
+                "Overwatch",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 1998
+    },
+    {
+        "Nome": "MariaDias Lima Araújo",
+        "Idade": "22.0",
+        "Localização(Cidade, Estado)": [
+            "Petropolis",
+            "RJ"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "c017dbac0a974ceeaa7c13856bf7eb1f",
+        "Email": "mariasv@inbox.org",
+        "DataDeNascimento": "2002-09-28",
+        "Hobbies": [
+            "natação",
+            "futebol",
+            "ciclismo",
+            "viagem"
+        ],
+        "Coding": [],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Overwatch",
+                "PC"
+            ],
+            [
+                "Fortnite",
+                "PlayStation 4"
+            ]
+        ],
+        "ano_nascimento": 2002
+    },
+    {
+        "Nome": "LucasRocha Gomes Correia",
+        "Idade": "41.0",
+        "Localização(Cidade, Estado)": [
+            "Campinas",
+            "SP"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "92fe473c25c44383b51af520f75a9b3e",
+        "Email": "lucas1x@mailservice.com",
+        "DataDeNascimento": "",
+        "Hobbies": [
+            "futebol",
+            "fotografia"
+        ],
+        "Coding": [
+            "Kotlin",
+            "JavaScript"
+        ],
+        "Jogos(Nome, Plataforma)": [],
+        "ano_nascimento": 1983
+    },
+    {
+        "Nome": "FernandaCosta Ribeiro",
+        "Idade": "23.0",
+        "Localização(Cidade, Estado)": [
+            "Belo Horizonte",
+            "MG"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "26782f2e88e74a968ed7b978197d6bef",
+        "Email": "fernanda1@mailservice.com",
+        "DataDeNascimento": "2001-07-23",
+        "Hobbies": [],
+        "Coding": [
+            "Java",
+            "Python"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Overwatch",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 2001
+    },
+    {
+        "Nome": "AnaCarvalho",
+        "Idade": "29.0",
+        "Localização(Cidade, Estado)": [
+            "Petropolis",
+            "RJ"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "1f9dda12657444be97482f5300183f92",
+        "Email": "anal7p@randommail.com",
+        "DataDeNascimento": "1995-01-25",
+        "Hobbies": [
+            "pintura",
+            "cinema",
+            "música",
+            "futebol",
+            "leitura"
+        ],
+        "Coding": [
+            "JavaScript",
+            "Swift",
+            "C#",
+            "Go"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Minecraft",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 1995
+    },
+    {
+        "Nome": "MarianaSouza Martins",
+        "Idade": "45.0",
+        "Localização(Cidade, Estado)": [
+            "Belo Horizonte",
+            "MG"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "b3e1b4cd77464140a2314bd08e8a8c88",
+        "Email": "mariana6@inbox.org",
+        "DataDeNascimento": "1978-11-21",
+        "Hobbies": [
+            "música",
+            "ciclismo"
+        ],
+        "Coding": [
+            "Python",
+            "Ruby",
+            "C#",
+            "Swift"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "GTA V",
+                "PlayStation 4"
+            ]
+        ],
+        "ano_nascimento": 1979
+    },
+    {
+        "Nome": "CamilaGomes Dias Moraes",
+        "Idade": "38.0",
+        "Localização(Cidade, Estado)": [
+            "Manaus",
+            ""
+        ],
+        "Amigos(Lista)": null,
+        "ID": "65bf61fcc89d481b934fc0647a772d3d",
+        "Email": "camilabh@fastmail.com",
+        "DataDeNascimento": "1986-07-05",
+        "Hobbies": [
+            "ciclismo",
+            "leitura",
+            "cozinhar"
+        ],
+        "Coding": [
+            "Java",
+            "Ruby"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "The Witcher 3",
+                "Xbox One"
+            ]
+        ],
+        "ano_nascimento": 1986
+    },
+    {
+        "Nome": "LarissaOliveira Ribeiro Silva",
+        "Idade": "30.0",
+        "Localização(Cidade, Estado)": [
+            "Petropolis",
+            "RJ"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "203e83c644534f839dbd298fff2ca55a",
+        "Email": "larissawkq@fastmail.com",
+        "DataDeNascimento": "1993-12-04",
+        "Hobbies": [
+            "viagem"
+        ],
+        "Coding": [
+            "C++",
+            "Java",
+            "C#",
+            "JavaScript"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Among Us",
+                "Mobile"
+            ]
+        ],
+        "ano_nascimento": 1994
+    },
+    {
+        "Nome": "CarlaAraújo Santos Dias",
+        "Idade": "44.0",
+        "Localização(Cidade, Estado)": [
+            "Curitiba",
+            "PR"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "91b6ea32683c4d5ca1e7d9f3a422cd97",
+        "Email": "carla8@randommail.com",
+        "DataDeNascimento": "1979-11-08",
+        "Hobbies": [
+            "música"
+        ],
+        "Coding": [],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Valorant",
+                "PC"
+            ],
+            [
+                "Cyberpunk 2077",
+                "PC"
+            ],
+            [
+                "GTA V",
+                "PlayStation 4"
+            ],
+            [
+                "Fortnite",
+                "PlayStation 4"
+            ]
+        ],
+        "ano_nascimento": 1980
+    },
+    {
+        "Nome": "MarianaRocha Barbosa",
+        "Idade": "29.0",
+        "Localização(Cidade, Estado)": [
+            "Petropolis",
+            "RJ"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "a2b21d7bd0524474907c07fb5b193345",
+        "Email": "mariana0@fastmail.com",
+        "DataDeNascimento": "1995-01-28",
+        "Hobbies": [
+            "leitura",
+            "viagem",
+            "cinema"
+        ],
+        "Coding": [
+            "Go",
+            "C++",
+            "Ruby"
+        ],
+        "Jogos(Nome, Plataforma)": [],
+        "ano_nascimento": 1995
+    },
+    {
+        "Nome": "GuilhermePereira Barbosa Souza",
+        "Idade": "36.0",
+        "Localização(Cidade, Estado)": [
+            "Recife",
+            "PE"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "0af28a8164c94a0383cfed520d5f7d77",
+        "Email": "guilherme5e@webmail.net",
+        "DataDeNascimento": "1988-06-13",
+        "Hobbies": [
+            "música",
+            "cinema",
+            "cozinhar",
+            "natação"
+        ],
+        "Coding": [
+            "Swift"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "The Witcher 3",
+                "Xbox One"
+            ],
+            [
+                "Overwatch",
+                "PC"
+            ],
+            [
+                "Fortnite",
+                "PlayStation 4"
+            ],
+            [
+                "Among Us",
+                "Mobile"
+            ]
+        ],
+        "ano_nascimento": 1988
+    },
+    {
+        "Nome": "JoãoSilva Almeida Correia",
+        "Idade": "28.0",
+        "Localização(Cidade, Estado)": [
+            "Juiz de Fora",
+            "MG"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "991fbe137ec3428b86ca703c911fc699",
+        "Email": "joãoy@inbox.org",
+        "DataDeNascimento": "1996-03-25",
+        "Hobbies": [
+            "fotografia"
+        ],
+        "Coding": [
+            "Swift",
+            "Kotlin",
+            "C#",
+            "Java"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Apex Legends",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 1996
+    },
+    {
+        "Nome": "BrunoSilva Dias Rocha",
+        "Idade": "47.0",
+        "Localização(Cidade, Estado)": [
+            "Brasília",
+            "DF"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "3f156b67aac94533bbe056e1e947e2ad",
+        "Email": "brunoe@randommail.com",
+        "DataDeNascimento": "1976-12-25",
+        "Hobbies": [
+            "cinema",
+            "natação",
+            "cozinhar",
+            "fotografia"
+        ],
+        "Coding": [
+            "JavaScript",
+            "Go",
+            "Ruby"
+        ],
+        "Jogos(Nome, Plataforma)": [],
+        "ano_nascimento": 1977
+    },
+    {
+        "Nome": "AnaMoraes Pereira Ribeiro",
+        "Idade": "45.0",
+        "Localização(Cidade, Estado)": [
+            "Recife",
+            "PE"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "81b641bb65004c0da7daa9e51399fff5",
+        "Email": "anaat@example.com",
+        "DataDeNascimento": "1978-11-09",
+        "Hobbies": [
+            "viagem"
+        ],
+        "Coding": [],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Overwatch",
+                "PC"
+            ],
+            [
+                "Valorant",
+                "PC"
+            ],
+            [
+                "GTA V",
+                "PlayStation 4"
+            ]
+        ],
+        "ano_nascimento": 1979
+    },
+    {
+        "Nome": "GuilhermeDias Fernandes",
+        "Idade": "41.0",
+        "Localização(Cidade, Estado)": [
+            "",
+            ""
+        ],
+        "Amigos(Lista)": null,
+        "ID": "48e10a7957f34a16988ff30a9000f972",
+        "Email": "guilhermecl@fastmail.com",
+        "DataDeNascimento": "1983-03-19",
+        "Hobbies": [
+            "fotografia",
+            "natação",
+            "música",
+            "viagem"
+        ],
+        "Coding": [
+            "Python",
+            "Kotlin",
+            "PHP",
+            "C++",
+            "Swift"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Overwatch",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 1983
+    },
+    {
+        "Nome": "CarlaRibeiro Moraes",
+        "Idade": "33.0",
+        "Localização(Cidade, Estado)": [
+            "Juiz de Fora",
+            "MG"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "1060e0e38ebb45ed8a488e1a8a254c71",
+        "Email": "carlam@inbox.org",
+        "DataDeNascimento": "1991-06-02",
+        "Hobbies": [
+            "fotografia",
+            "futebol",
+            "música"
+        ],
+        "Coding": [
+            "Python",
+            "Swift",
+            "JavaScript"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Among Us",
+                "Mobile"
+            ],
+            [
+                "League of Legends",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 1991
+    },
+    {
+        "Nome": "MarianaCosta",
+        "Idade": "31.0",
+        "Localização(Cidade, Estado)": [
+            "Belo Horizonte",
+            "MG"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "c391db3f983c4af683c2c8cf3ffa3c35",
+        "Email": "marianasch@freemail.com",
+        "DataDeNascimento": "1993-01-05",
+        "Hobbies": [
+            "leitura"
+        ],
+        "Coding": [],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "League of Legends",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 1993
+    },
+    {
+        "Nome": "LucasMoraes Almeida",
+        "Idade": "33.0",
+        "Localização(Cidade, Estado)": [
+            "São Paulo",
+            "SP"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "d0337154a1824422b290ace164554532",
+        "Email": "lucasn@webmail.net",
+        "DataDeNascimento": "1991-06-10",
+        "Hobbies": [],
+        "Coding": [
+            "C#"
+        ],
+        "Jogos(Nome, Plataforma)": [],
+        "ano_nascimento": 1991
+    },
+    {
+        "Nome": "BeatrizSouza Pereira",
+        "Idade": "27.0",
+        "Localização(Cidade, Estado)": [
+            "Salvador",
+            "BA"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "21eea015de774a809dd9e0c92aa93274",
+        "Email": "beatrizg0j@freemail.com",
+        "DataDeNascimento": "",
+        "Hobbies": [
+            "cinema",
+            "ciclismo",
+            "pintura"
+        ],
+        "Coding": [
+            "C++",
+            "PHP",
+            "Ruby"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Cyberpunk 2077",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 1997
+    },
+    {
+        "Nome": "MarianaAlmeida Silva",
+        "Idade": "29.0",
+        "Localização(Cidade, Estado)": [
+            "Rio de Janeiro",
+            "RJ"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "bce9ad085e97411597d8efe9acd78f46",
+        "Email": "mariana0@mail.com",
+        "DataDeNascimento": "1995-11-22",
+        "Hobbies": [
+            "música",
+            "viagem"
+        ],
+        "Coding": [
+            "Java",
+            "C#"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "The Witcher 3",
+                "Xbox One"
+            ]
+        ],
+        "ano_nascimento": 1995
+    },
+    {
+        "Nome": "MarianaAlmeida Silva",
+        "Idade": "29.0",
+        "Localização(Cidade, Estado)": [
+            "Rio de Janeiro",
+            "RJ"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "c426d9c418a34df3a7d5b3e4a2c2bdcb",
+        "Email": "joaogmail.com",
+        "DataDeNascimento": "1995-11-22",
+        "Hobbies": [
+            "música",
+            "viagem"
+        ],
+        "Coding": [
+            "Java",
+            "C#"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "The Witcher 3",
+                "Xbox One"
+            ]
+        ],
+        "ano_nascimento": 1995
+    },
+    {
+        "Nome": "MarianaAlmeida Silva",
+        "Idade": 2024,
+        "Localização(Cidade, Estado)": [
+            "Rio de Janeiro",
+            "RJ"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "38643193558c4527be52ea254ab9818d",
+        "Email": "mariana2@mail.com",
+        "DataDeNascimento": "1995-11-22",
+        "Hobbies": [
+            "música",
+            "viagem"
+        ],
+        "Coding": [
+            "Java",
+            "C#"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "The Witcher 3",
+                "Xbox One"
+            ]
+        ],
+        "ano_nascimento": 0
+    },
+    {
+        "Nome": "LarissaSantos Ribeiro",
+        "Idade": 2024,
+        "Localização(Cidade, Estado)": [
+            "Porto Alegre",
+            "RS"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "7796adcb1da44fceb7b1bd162ad89085",
+        "Email": "larissarnl@randommail.com",
+        "DataDeNascimento": "1977-08-05",
+        "Hobbies": [
+            "ciclismo",
+            "cozinhar"
+        ],
+        "Coding": [
+            "PHP",
+            "JavaScript",
+            "C++",
+            "Python"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Overwatch",
+                "PC"
+            ],
+            [
+                "Fortnite",
+                "PlayStation 4"
+            ]
+        ],
+        "ano_nascimento": 0
+    },
+    {
+        "Nome": "LuísAlmeida Gomes Ribeiro",
+        "Idade": "43.0",
+        "Localização(Cidade, Estado)": [
+            "Recife",
+            "PE"
+        ],
+        "Amigos(Lista)": null,
+        "ID": "2ac55cb7eb074afa9abcad363c86ea89",
+        "Email": "luísl4@fastmail.com",
+        "DataDeNascimento": "1980-12-27",
+        "Hobbies": [
+            "pintura"
+        ],
+        "Coding": [
+            "Python",
+            "Java"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Fortnite",
+                "PlayStation 4"
+            ]
+        ],
+        "ano_nascimento": 1981
+    },
+    {
+        "Nome": "MarianaAlmeida Silva",
+        "Idade": "29.0",
+        "Localização(Cidade, Estado)": [
+            "",
+            ""
+        ],
+        "Amigos(Lista)": null,
+        "ID": "69495d2a0df94f209076e3a8e87eaf39",
+        "Email": "mariana1@mail.com",
+        "DataDeNascimento": "1995-11-22",
+        "Hobbies": [
+            "música",
+            "viagem"
+        ],
+        "Coding": [
+            "Java",
+            "C#"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "The Witcher 3",
+                "Xbox One"
+            ]
+        ],
+        "ano_nascimento": 1995
+    },
+    {
+        "Nome": "AnaBarbosa",
+        "Idade": "45.0",
+        "Localização(Cidade, Estado)": [
+            "Juiz de Fora",
+            ""
+        ],
+        "Amigos(Lista)": null,
+        "ID": "ca20dc3f93fc466cad0eab665a1c9b90",
+        "Email": "ana7n@mailservice.com",
+        "DataDeNascimento": "1979-06-11",
+        "Hobbies": [
+            "ciclismo",
+            "fotografia"
+        ],
+        "Coding": [
+            "C++",
+            "PHP",
+            "Ruby",
+            "Go",
+            "C#"
+        ],
+        "Jogos(Nome, Plataforma)": [
+            [
+                "Overwatch",
+                "PC"
+            ],
+            [
+                "Apex Legends",
+                "PC"
+            ],
+            [
+                "Minecraft",
+                "PC"
+            ]
+        ],
+        "ano_nascimento": 1979
+    }
+]

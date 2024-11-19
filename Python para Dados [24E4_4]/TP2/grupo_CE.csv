@@ -1,0 +1,11 @@
+Nome|Idade|Localização(Cidade, Estado)|Amigos(Lista)|ID|Email|DataDeNascimento|Hobbies|Coding|Jogos(Nome, Plataforma)|ano_nascimento
+Fernando|29|['Fortaleza', 'CE']|['Lucas', 'Aline']|3e5b5d7399274c388d02b064c840456e||||||1995
+Gabriela|27|['Fortaleza', 'CE']|['Carla', 'Aline', 'Rafaela']|2dfd7e4e059a4a33a262707fcb0ccef8||||||1997
+MatheusCosta Ribeiro|36|['Fortaleza', 'CE']||371544ed2c764d82b911f663e540412b|matheus4@webmail.net|1988-09-22|['leitura', 'cozinhar', 'música', 'cinema', 'pintura']|['Go', 'PHP', 'Ruby', 'Java', 'Python']|[['Overwatch', 'PC']]|1988
+GuilhermeRocha|2024|['Fortaleza', 'CE']||f62fbd1f51c043de9c645bfe68f50717|guilherme1@inbox.org|1993-05-14|['pintura']|['JavaScript', 'C++']|[['Cyberpunk 2077', 'PC'], ['The Witcher 3', 'Xbox One'], ['Minecraft', 'PC'], ['Valorant', 'PC'], ['Fortnite', 'PlayStation 4']]|0
+MatheusSilva|19|['Fortaleza', 'CE']||5390c6c2f72641f9979ff227c6791a2a|matheusz1@inbox.org|2004-12-23|['pintura', 'leitura', 'futebol']|['Python']|[]|2005
+JoãoRodrigues Araújo|24|['Fortaleza', 'CE']||888f5eb264d84db19fdc826ab1a4fcf8|joãon@webmail.net|2000-01-17|['pintura', 'música', 'cinema', 'cozinhar', 'viagem']|['JavaScript', 'Go', 'Kotlin']|[['Valorant', 'PC']]|2000
+CamilaSilva Carvalho|2024|['Fortaleza', 'CE']||28eaab09f84542a3b2075a8382c387f8|camilar@inbox.org|1984-11-21|['pintura', 'música', 'cozinhar', 'fotografia', 'natação']|['Swift', 'PHP', 'Python']|[['Overwatch', 'PC'], ['GTA V', 'PlayStation 4'], ['Apex Legends', 'PC']]|0
+MarianaAraújo|37|['Fortaleza', 'CE']||4d7f5d6eea9143f8af9431c86d19fd73|marianafyu@mailservice.com|1987-04-21|['natação']|['Swift', 'Ruby', 'C++']|[['GTA V', 'PlayStation 4'], ['Cyberpunk 2077', 'PC']]|1987
+JuliaMartins|44|['Fortaleza', 'CE']||9a510b88728a405eb0ecbff370bf9d3c|juliaxmw@inbox.org|1980-02-20|['cinema', 'música', 'cozinhar']|['Java']|[['The Witcher 3', 'Xbox One'], ['Valorant', 'PC'], ['Apex Legends', 'PC']]|1980
+CarlaSouza|20|['Fortaleza', 'CE']||16f6eb050a544eb089744c4fe93eb81b|carlafa8@webmail.net|2004-03-04|[]|['Go', 'C++', 'Kotlin', 'Java', 'Python']|[['Minecraft', 'PC']]|2004
