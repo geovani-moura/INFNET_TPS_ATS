@@ -1,0 +1,6 @@
+Id,Nome,Descricao,DataInicio,DataConclusao,IdFuncionario,Custo,Status
+1,Projeto A,Descrição do Projeto A,2024-01-01,2024-12-31,1,100000.0,Em Execução
+2,Projeto B,Descrição do Projeto B,2024-02-01,2024-11-30,3,200000.0,Em Planejamento
+3,Projeto C,Descrição do Projeto C,2024-03-01,2024-10-15,5,50000.0,Concluído
+4,Projeto D,Descrição do Projeto D,2024-04-01,2024-09-30,2,150000.0,Em Execução
+5,Projeto E,Descrição do Projeto E,2024-05-01,2024-08-31,4,120000.0,Cancelado
