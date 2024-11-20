@@ -1,6 +1,14 @@
 [
     {
         "DepartamentoNome": "TI",
-        "MediaSalario": 5666.666666666667
+        "MediaSalario": 1000.0
+    },
+    {
+        "DepartamentoNome": "RH",
+        "MediaSalario": 1000.0
+    },
+    {
+        "DepartamentoNome": "Financeiro",
+        "MediaSalario": 1000.0
     }
 ]
