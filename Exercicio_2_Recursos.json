@@ -1,6 +1,14 @@
 [
     {
-        "RecursoDescricao": "Recurso Material",
-        "QuantidadeTotal": 180.0
+        "RecursoDescricao": "Recurso Material escritório",
+        "QuantidadeTotal": 1010.0
+    },
+    {
+        "RecursoDescricao": "Recurso Material sala de reunião",
+        "QuantidadeTotal": 950.0
+    },
+    {
+        "RecursoDescricao": "Recurso Material papel",
+        "QuantidadeTotal": 505.0
     }
 ]

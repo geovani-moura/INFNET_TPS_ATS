@@ -126,7 +126,6 @@ CREATE TABLE IF NOT EXISTS TB_RECURSO_PROJETO (
 )
 print("Tabelas Criadas")
 
-
 def ler_arquivo_csv(nome_arquivo):
     diretorio_atual = os.path.dirname(os.path.realpath(__file__))
     arquivo = os.path.join(diretorio_atual, nome_arquivo)
@@ -134,7 +133,6 @@ def ler_arquivo_csv(nome_arquivo):
         leitor_csv = csv.DictReader(csvfile)
         dados = [linha for linha in leitor_csv]
     return dados
-
 
 # TB_NIVEL
 dados_nivel = ler_arquivo_csv("CSV/TB_NIVEL.csv")
@@ -220,7 +218,6 @@ cursor.executemany(
 
 # TB_PROJETO
 dados_projeto = ler_arquivo_csv("CSV/TB_PROJETO.csv")
-print(f'Dados lidos do arquivo: {dados_projeto}')
 TB_PROJETO_LIST = [
     (
         int(proj["Id"]),
@@ -234,7 +231,6 @@ TB_PROJETO_LIST = [
     )
     for proj in dados_projeto
 ]
-print(f'Dados para inserção: {TB_PROJETO_LIST}')
 cursor.executemany(
     "INSERT INTO TB_PROJETO (Id, IdFuncionario, Nome, Descricao, DataInicio, DataConclusao, Status, Custo) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
     TB_PROJETO_LIST,

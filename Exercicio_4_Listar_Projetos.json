@@ -12,5 +12,68 @@
         "DataInicio": "2024-04-01",
         "DataConclusao": "2024-09-30",
         "FuncionarioResponsavel": "Lucas Almeida"
+    },
+    {
+        "NomeProjeto": "Projeto F",
+        "Custo": 80000.0,
+        "DataInicio": "2024-06-01",
+        "DataConclusao": "2024-12-31",
+        "FuncionarioResponsavel": "Lucas Ferreira"
+    },
+    {
+        "NomeProjeto": "Projeto H",
+        "Custo": 180000.0,
+        "DataInicio": "2024-08-01",
+        "DataConclusao": "2024-12-01",
+        "FuncionarioResponsavel": "Lucas Almeida"
+    },
+    {
+        "NomeProjeto": "Projeto J",
+        "Custo": 220000.0,
+        "DataInicio": "2024-10-01",
+        "DataConclusao": "2024-11-30",
+        "FuncionarioResponsavel": "Ricardo Costa"
+    },
+    {
+        "NomeProjeto": "Projeto L",
+        "Custo": 95000.0,
+        "DataInicio": "2024-12-01",
+        "DataConclusao": "2025-03-01",
+        "FuncionarioResponsavel": "Lucas Almeida"
+    },
+    {
+        "NomeProjeto": "Projeto N",
+        "Custo": 150000.0,
+        "DataInicio": "2024-02-20",
+        "DataConclusao": "2024-08-20",
+        "FuncionarioResponsavel": "Fernanda Oliveira"
+    },
+    {
+        "NomeProjeto": "Projeto O",
+        "Custo": 200000.0,
+        "DataInicio": "2024-03-10",
+        "DataConclusao": "2024-09-10",
+        "FuncionarioResponsavel": "Júlia Silva"
+    },
+    {
+        "NomeProjeto": "Projeto R",
+        "Custo": 110000.0,
+        "DataInicio": "2024-06-05",
+        "DataConclusao": "2024-11-05",
+        "FuncionarioResponsavel": "Lucas Ferreira"
+    },
+    {
+        "NomeProjeto": "Projeto S",
+        "Custo": 210000.0,
+        "DataInicio": "2024-07-20",
+        "DataConclusao": "2024-12-20",
+        "FuncionarioResponsavel": "Fernanda Oliveira"
+    },
+    {
+        "NomeProjeto": "Projeto T",
+        "Custo": 160000.0,
+        "DataInicio": "2024-08-10",
+        "DataConclusao": "2024-12-31",
+        "FuncionarioResponsavel": "Júlia Silva"
     }
 ]

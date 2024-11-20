@@ -4,3 +4,18 @@ Id,Nome,Descricao,DataInicio,DataConclusao,IdFuncionario,Custo,Status
 3,Projeto C,Descrição do Projeto C,2024-03-01,2024-10-15,5,50000.0,Concluído
 4,Projeto D,Descrição do Projeto D,2024-04-01,2024-09-30,2,150000.0,Em Execução
 5,Projeto E,Descrição do Projeto E,2024-05-01,2024-08-31,4,120000.0,Cancelado
+6,Projeto F,Descrição do Projeto F,2024-06-01,2024-12-31,1,80000.0,Em Execução
+7,Projeto G,Descrição do Projeto G,2024-07-01,2024-11-30,3,250000.0,Em Planejamento
+8,Projeto H,Descrição do Projeto H,2024-08-01,2024-12-01,2,180000.0,Em Execução
+9,Projeto I,Descrição do Projeto I,2024-09-01,2024-10-30,5,130000.0,Concluído
+10,Projeto J,Descrição do Projeto J,2024-10-01,2024-11-30,4,220000.0,Em Execução
+11,Projeto K,Descrição do Projeto K,2024-11-01,2024-12-31,3,170000.0,Em Planejamento
+12,Projeto L,Descrição do Projeto L,2024-12-01,2025-03-01,2,95000.0,Em Execução
+13,Projeto M,Descrição do Projeto M,2024-01-15,2024-07-15,1,50000.0,Concluído
+14,Projeto N,Descrição do Projeto N,2024-02-20,2024-08-20,3,150000.0,Em Execução
+15,Projeto O,Descrição do Projeto O,2024-03-10,2024-09-10,5,200000.0,Em Execução
+16,Projeto P,Descrição do Projeto P,2024-04-15,2024-12-15,4,300000.0,Em Planejamento
+17,Projeto Q,Descrição do Projeto Q,2024-05-25,2024-10-25,2,120000.0,Cancelado
+18,Projeto R,Descrição do Projeto R,2024-06-05,2024-11-05,1,110000.0,Em Execução
+19,Projeto S,Descrição do Projeto S,2024-07-20,2024-12-20,3,210000.0,Em Execução
+20,Projeto T,Descrição do Projeto T,2024-08-10,2024-12-31,5,160000.0,Em Execução
