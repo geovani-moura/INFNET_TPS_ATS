@@ -270,7 +270,8 @@ def EscreverJSON(nomeArquivo, dados):
         dados (list[dict] | dict): Dados a serem gravados no arquivo. Pode ser uma 
         lista de dicionários ou um único dicionário.
     """
-    with open(nomeArquivo, 'w', encoding='utf-8') as arquivo:
+    arquivo = os.path.join(diretorio_atual, nomeArquivo)
+    with open(arquivo, 'w', encoding='utf-8') as arquivo:
         json.dump(dados, arquivo, ensure_ascii=False, indent=4)
 
 print("""
