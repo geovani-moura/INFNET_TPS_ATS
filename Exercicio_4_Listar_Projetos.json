@@ -1,0 +1,16 @@
+[
+    {
+        "NomeProjeto": "Projeto A",
+        "Custo": 100000.0,
+        "DataInicio": "2024-01-01",
+        "DataConclusao": "2024-12-31",
+        "FuncionarioResponsavel": "Lucas Ferreira"
+    },
+    {
+        "NomeProjeto": "Projeto D",
+        "Custo": 150000.0,
+        "DataInicio": "2024-04-01",
+        "DataConclusao": "2024-09-30",
+        "FuncionarioResponsavel": "Lucas Almeida"
+    }
+]

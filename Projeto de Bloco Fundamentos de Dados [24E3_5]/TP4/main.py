@@ -1,9 +1,10 @@
 import os
 import csv
-from numpy import int32
-import pandas as pd
+#from numpy import int32
+#import pandas as pd
 import sqlite3
-from datetime import datetime, timedelta
+#from datetime import datetime, timedelta
+import json
 
 diretorio_atual = os.path.dirname(os.path.realpath(__file__))
 arquivo = os.path.join(diretorio_atual, "dados.db")
@@ -261,15 +262,25 @@ cursor.executemany(
 conexao.commit()
 print("-" * 50)
 
-
-print(
+def EscreverJSON(nomeArquivo, dados):
     """
+    Escreve uma lista de registros ou dados em um arquivo JSON.
+
+    Os dados fornecidos serão gravados no formato JSON com indentação para facilitar a leitura.
+    A codificação UTF-8 é utilizada para suportar caracteres especiais.
+
+    Args:
+        nomeArquivo (str): Caminho do arquivo JSON a ser criado ou sobrescrito.
+        dados (list[dict] | dict): Dados a serem gravados no arquivo. Pode ser uma 
+        lista de dicionários ou um único dicionário.
+    """
+    with open(nomeArquivo, 'w', encoding='utf-8') as arquivo:
+        json.dump(dados, arquivo, ensure_ascii=False, indent=4)
+
+print("""
 1. Trazer a média dos salários (atual) dos funcionários responsáveis por projetos concluídos, agrupados
 por departamento.
-"""
-)
-
-
+""")
 def media(cursor):
     """
     Retorna a média dos salários atuais dos funcionários responsáveis por projetos concluídos,
@@ -293,14 +304,20 @@ def media(cursor):
         ORDER BY MediaSalario DESC;
     """
     cursor.execute(query)
-    return cursor.fetchall()
-
+    colunas = [col[0] for col in cursor.description]
+    resultados = cursor.fetchall()
+    return [dict(zip(colunas, linha)) for linha in resultados]
 
 resultado = media(cursor)
 
 print("Média de salários por departamento:")
 for linha in resultado:
-    print(f"Departamento: {linha[0]} | Média Salarial: {linha[1]:.2f}")
+    print(
+        f"Departamento: {linha['DepartamentoNome']} "
+        f"| Média Salarial: {linha['MediaSalario']:.2f}"
+    )
+EscreverJSON("Exercicio_1_Media.json", resultado)
+
 print("-" * 50)
 
 
@@ -310,7 +327,6 @@ print(
 e a quantidade total usada.
 """
 )
-
 
 def recursos(cursor, top=3):
     """
@@ -334,24 +350,28 @@ def recursos(cursor, top=3):
         LIMIT {top};
     """
     cursor.execute(query)
-    return cursor.fetchall()
-
+    colunas = [col[0] for col in cursor.description]
+    resultados = cursor.fetchall()
+    return [dict(zip(colunas, linha)) for linha in resultados]
 
 resultado = recursos(cursor)
 
 print("Recursos materiais mais usados:")
 for linha in resultado:
-    print(f"Recurso: {linha[0]} | Quantidade Total: {linha[1]}")
+    print(
+        f"Recurso: {linha['RecursoDescricao']} "
+        f"| Quantidade Total: {linha['QuantidadeTotal']}"
+    )
+
+EscreverJSON("Exercicio_2_Recursos.json", resultado)
+
 print("-" * 50)
 
 
-print(
-    """
+print("""
 3. Calcular o custo total dos projetos por departamento, considerando apenas os projetos
 'Concluídos'.
-"""
-)
-
+""")
 
 def custo(cursor):
     """
@@ -375,13 +395,20 @@ def custo(cursor):
         ORDER BY CustoTotal DESC;
     """
     cursor.execute(query)
-    return cursor.fetchall()
-
+    colunas = [col[0] for col in cursor.description]
+    resultados = cursor.fetchall()
+    return [dict(zip(colunas, linha)) for linha in resultados]
 
 resultado = custo(cursor)
 print("Custo total dos projetos concluídos por departamento:")
 for linha in resultado:
-    print(f"Departamento: {linha[0]} | Custo Total: {linha[1]:.2f}")
+    print(
+        f"Departamento: {linha['DepartamentoNome']} "
+        f"| Custo Total: {linha['CustoTotal']:.2f}"
+    )
+
+EscreverJSON("Exercicio_3_Custo.json", resultado)
+
 print("-" * 50)
 
 
@@ -391,7 +418,6 @@ print(
 e o nome do funcionário responsável, que estejam 'Em Execução'.
 """
 )
-
 
 def listar_projetos(cursor):
     """
@@ -416,15 +442,23 @@ def listar_projetos(cursor):
         ORDER BY PROJ.Nome;
     """
     cursor.execute(query)
-    return cursor.fetchall()
-
+    colunas = [col[0] for col in cursor.description]
+    resultados = cursor.fetchall()
+    return [dict(zip(colunas, linha)) for linha in resultados]
 
 resultado = listar_projetos(cursor)
 print("Projetos 'Em Execução':")
 for linha in resultado:
     print(
-        f"Projeto: {linha[0]} | Custo: {linha[1]:.2f} | Início: {linha[2]} | Conclusão: {linha[3]} | Responsável: {linha[4]}"
+        f"Projeto: {linha['NomeProjeto']} "
+        f"| Custo: {linha['Custo']:.2f} "
+        f"| Início: {linha['DataInicio']} "
+        f"| Conclusão: {linha['DataConclusao']} "
+        f"| Responsável: {linha['FuncionarioResponsavel']}"
     )
+
+EscreverJSON("Exercicio_4_Listar_Projetos.json", resultado)
+
 print("-" * 50)
 
 
@@ -434,9 +468,7 @@ print(
 dependentes são associados aos funcionários que estão gerenciando os projetos.
 """
 )
-
-
-def projeto_com_mais_dependentes(cursor):
+def dependentes(cursor):
     """
     Identifica o projeto com o maior número de dependentes associados ao funcionário responsável.
 
@@ -459,16 +491,23 @@ def projeto_com_mais_dependentes(cursor):
         LIMIT 1;
     """
     cursor.execute(query)
-    return cursor.fetchone()
+    colunas = [col[0] for col in cursor.description]
+    resultados = cursor.fetchall()
+    return [dict(zip(colunas, linha)) for linha in resultados]
 
-
-resultado = projeto_com_mais_dependentes(cursor)
+resultado = dependentes(cursor)
 if resultado:
-    print(
-        f"Projeto: {resultado[0]} | Responsável: {resultado[1]} | Dependentes: {resultado[2]}"
-    )
+    for linha in resultado:
+        print(
+            f"Projeto: {linha['NomeProjeto']} "
+            f"| Responsável: {linha['FuncionarioResponsavel']} "
+            f"| Dependentes: {linha['QuantidadeDependentes']}"
+        )
 else:
     print("Nenhum projeto com dependentes foi encontrado.")
+
+EscreverJSON("Exercicio_5_Listar_Dependentes.json", resultado)
+
 print("-" * 50)
 
 conexao.close()
