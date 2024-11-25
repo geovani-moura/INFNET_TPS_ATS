@@ -33,27 +33,3 @@ DELETE FROM Vendas WHERE VendaID = 2;
 
 --H
 DROP TABLE LogVendas;
-
-
-
-
-
-
-
-
-
-
-
-
-ALTER TABLE Clientes DROP COLUMN Preferencias;
-
-ALTER TABLE Clientes CHANGE COLUMN Telefone ContatoTelefone VARCHAR(20);
-ALTER TABLE Fornecedores CHANGE COLUMN Contato TelefoneContato VARCHAR(50);
-
-ALTER TABLE Produtos MODIFY COLUMN Preco DECIMAL(12, 2);
-
-UPDATE Clientes SET ContatoTelefone = '31988888888' WHERE ClienteID = 3;
-UPDATE Produtos SET Descricao = 'Espumante Brut Premium - Edição Especial' WHERE ProdutoID = 2;
-UPDATE Vendas SET StatusVenda = 'Concluída' WHERE VendaID = 3;
-
-

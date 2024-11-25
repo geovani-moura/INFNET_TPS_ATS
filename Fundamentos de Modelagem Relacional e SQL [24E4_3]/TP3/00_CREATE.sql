@@ -1,160 +1,150 @@
-CREATE TABLE IF NOT EXISTS Clientes (
-    ClienteID INT PRIMARY KEY,
-    Nome VARCHAR(100) NOT NULL,
-    Email VARCHAR(100) UNIQUE,
-    Telefone VARCHAR(20),
-    Endereco VARCHAR(255),
-    Preferencias TEXT
+-- drop table if exists ItensVenda 
+-- drop table if exists LogVendas
+-- drop table if exists Produto_Promocao
+-- drop table if exists Venda_Produto
+-- drop table if exists Pagamentos
+-- drop table if exists Vendas
+-- drop table if exists Produtos
+-- drop table if exists Promocoes
+-- drop table if exists Fornecedores
+-- drop table if exists Clientes
+
+create table Clientes (
+    ClienteID int primary key,
+    Nome varchar(100) not null,
+    Email varchar(100) unique,
+    Telefone varchar(20),
+    Endereco varchar(255),
+    Preferencias text
 );
 
-CREATE TABLE IF NOT EXISTS Fornecedores (
-    FornecedorID INT PRIMARY KEY,
-    NomeFornecedor VARCHAR(100) NOT NULL,
-    Contato VARCHAR(50),
-    Endereco VARCHAR(255)
+create table Fornecedores (
+    FornecedorID int primary key,
+    NomeFornecedor varchar(100) not null,
+    Contato varchar(50),
+    Endereco varchar(255)
 );
 
-CREATE TABLE IF NOT EXISTS Produtos (
-    ProdutoID INT PRIMARY KEY,
-    NomeProduto VARCHAR(100) NOT NULL,
-    Categoria VARCHAR(50),
-    Descricao TEXT,
-    Preco DECIMAL(10, 2) NOT NULL,
-    Estoque INT DEFAULT 0,
-    FornecedorID INT,
-    FOREIGN KEY (FornecedorID) REFERENCES Fornecedores(FornecedorID)
+create table Produtos (
+    ProdutoID int primary key,
+    NomeProduto varchar(100) not null,
+    Categoria varchar(50),
+    Descricao text,
+    Preco decimal(10, 2) not null,
+    Estoque int default 0,
+    FornecedorID int,
+    foreign key (FornecedorID) references Fornecedores(FornecedorID)
 );
 
-CREATE TABLE IF NOT EXISTS Vendas (
-    VendaID INT PRIMARY KEY,
-    ClienteID INT NOT NULL,
-    DataVenda DATETIME DEFAULT CURRENT_TIMESTAMP,
-    ValorTotal DECIMAL(10, 2),
-    StatusVenda VARCHAR(20),
-    FOREIGN KEY (ClienteID) REFERENCES Clientes(ClienteID)
+create table Vendas (
+    VendaID int primary key,
+    ClienteID int not null,
+    DataVenda datetime default current_timestamp,
+    ValorTotal decimal(10, 2),
+    StatusVenda varchar(20),
+    foreign key (ClienteID) references Clientes(ClienteID)
 );
 
-CREATE TABLE IF NOT EXISTS ItensVenda (
-    ItemID INT PRIMARY KEY,
-    VendaID INT NOT NULL,
-    ProdutoID INT NOT NULL,
-    Quantidade INT NOT NULL,
-    FOREIGN KEY (VendaID) REFERENCES Vendas(VendaID),
-    FOREIGN KEY (ProdutoID) REFERENCES Produtos(ProdutoID)
+create table ItensVenda (
+    ItemID int primary key,
+    VendaID int not null,
+    ProdutoID int not null,
+    Quantidade int not null,
+    foreign key (VendaID) references Vendas(VendaID),
+    foreign key (ProdutoID) references Produtos(ProdutoID)
 );
 
-CREATE TABLE IF NOT EXISTS Pagamentos (
-    PagamentoID INT PRIMARY KEY,
-    VendaID INT NOT NULL,
-    ValorPago DECIMAL(10, 2),
-    DataPagamento DATETIME DEFAULT CURRENT_TIMESTAMP,
-    MetodoPagamento VARCHAR(50),
-    StatusPagamento VARCHAR(20),
-    FOREIGN KEY (VendaID) REFERENCES Vendas(VendaID)
+create table Pagamentos (
+    PagamentoID int primary key,
+    VendaID int not null,
+    ValorPago decimal(10, 2),
+    DataPagamento datetime default current_timestamp,
+    MetodoPagamento varchar(50),
+    StatusPagamento varchar(20),
+    foreign key (VendaID) references Vendas(VendaID)
 );
 
---Tabela implementada para o Item 4.0.
-CREATE TABLE IF NOT EXISTS Venda_Produto (
-    VendaID INT,
-    ProdutoID INT,
-    Quantidade INT NOT NULL,  
-    PRIMARY KEY (VendaID, ProdutoID), 
-    FOREIGN KEY (VendaID) REFERENCES Vendas(VendaID),
-    FOREIGN KEY (ProdutoID) REFERENCES Produtos(ProdutoID)
+create table Venda_Produto (
+    VendaID int,
+    ProdutoID int,
+    Quantidade int not null,  
+    primary key (VendaID, ProdutoID), 
+    foreign key (VendaID) references Vendas(VendaID),
+    foreign key (ProdutoID) references Produtos(ProdutoID)
 );
 
---Tabela implementada para o TP3
-CREATE TABLE IF NOT EXISTS Promocoes (
-    PromocaoID INT PRIMARY KEY,
-    NomePromocao VARCHAR(100) NOT NULL,
-    PercentualDesconto DECIMAL(5, 2) NOT NULL,
-    DataInicio DATE NOT NULL,
-    DataFim DATE NOT NULL
+create table Promocoes (
+    PromocaoID int primary key,
+    NomePromocao varchar(100) not null,
+    PercentualDesconto decimal(5, 2) not null,
+    DataInicio date not null,
+    DataFim date not null
 );
 
-CREATE TABLE IF NOT EXISTS Produto_Promocao (
-    ProdutoID INT,
-    PromocaoID INT,
-    PRIMARY KEY (ProdutoID, PromocaoID),
-    FOREIGN KEY (ProdutoID) REFERENCES Produtos(ProdutoID),
-    FOREIGN KEY (PromocaoID) REFERENCES Promocoes(PromocaoID)
+create table Produto_Promocao (
+    ProdutoID int,
+    PromocaoID int,
+    primary key (ProdutoID, PromocaoID),
+    foreign key (ProdutoID) references Produtos(ProdutoID),
+    foreign key (PromocaoID) references Promocoes(PromocaoID)
 );
 
-CREATE TABLE IF NOT EXISTS LogVendas (
-    LogID INT PRIMARY KEY AUTO_INCREMENT,
-    VendaID INT NOT NULL,
-    DataHora DATETIME DEFAULT CURRENT_TIMESTAMP,
-    Descricao TEXT
+create table LogVendas (
+    LogID int primary key auto_increment,
+    VendaID int not null,
+    DataHora datetime default current_timestamp,
+    Descricao text
 );
 
---Itens alterado para levar em conta a promoção
-CREATE OR ALTER PROCEDURE RealizarVenda(
-    IN p_ClienteID INT,
-    IN p_ProdutoID INT,
-    IN p_Quantidade INT
+create procedure RealizarVenda(
+    in p_ClienteID int,
+    in p_ProdutoID int,
+    in p_Quantidade int
 )
-BEGIN
-    DECLARE estoque_atual INT;
-    DECLARE v_VendaID INT;
-    DECLARE preco_unitario DECIMAL(10, 2);
-    DECLARE desconto_promocao DECIMAL(5, 2);
-    DECLARE valor_total DECIMAL(10, 2);
+begin
+    declare estoque_atual int;
+    declare v_VendaID int;
+    declare preco_unitario decimal(10, 2);
+    declare desconto_promocao decimal(5, 2);
+    declare valor_total decimal(10, 2);
 
-    SELECT Estoque INTO estoque_atual
-    FROM Produtos
-    WHERE ProdutoID = p_ProdutoID;
+    select Estoque into estoque_atual
+    from Produtos
+    where ProdutoID = p_ProdutoID;
 
-    IF estoque_atual < p_Quantidade THEN
-        SIGNAL SQLSTATE '45000'
-        SET MESSAGE_TEXT = 'Estoque insuficiente para a venda.';
-    ELSE
-        SELECT 
+    if estoque_atual < p_Quantidade then
+        signal sqlstate '45000'
+        set message_text = 'Estoque insuficiente para a venda.';
+    else
+        select 
             Preco,
-            COALESCE(MAX(P.Desconto), 0) INTO preco_unitario, desconto_promocao
-        FROM Produtos Pr
-        LEFT JOIN Produto_Promocao PP ON Pr.ProdutoID = PP.ProdutoID
-        LEFT JOIN Promocoes P 
-            ON PP.PromocaoID = P.PromocaoID
-            AND CURDATE() BETWEEN P.DataInicio AND P.DataFim
-        WHERE Pr.ProdutoID = p_ProdutoID;
+            coalesce(max(P.Desconto), 0) into preco_unitario, desconto_promocao
+        from Produtos Pr
+        left join Produto_Promocao PP on Pr.ProdutoID = PP.ProdutoID
+        left join Promocoes P 
+            on PP.PromocaoID = P.PromocaoID
+            and curdate() between P.DataInicio and P.DataFim
+        where Pr.ProdutoID = p_ProdutoID;
 
-        SET valor_total = p_Quantidade * preco_unitario * (1 - (desconto_promocao / 100));
+        set valor_total = p_Quantidade * preco_unitario * (1 - (desconto_promocao / 100));
 
-        INSERT INTO Vendas (ClienteID, ValorTotal, StatusVenda)
-        VALUES (p_ClienteID, valor_total, 'Em andamento');
+        insert into Vendas (ClienteID, ValorTotal, StatusVenda)
+        values (p_ClienteID, valor_total, 'Em andamento');
 
-        SET v_VendaID = LAST_INSERT_ID();
+        set v_VendaID = last_insert_id();
 
-        INSERT INTO ItensVenda (VendaID, ProdutoID, Quantidade)
-        VALUES (v_VendaID, p_ProdutoID, p_Quantidade);
+        insert into ItensVenda (VendaID, ProdutoID, Quantidade)
+        values (v_VendaID, p_ProdutoID, p_Quantidade);
 
-        UPDATE Produtos
-        SET Estoque = Estoque - p_Quantidade
-        WHERE ProdutoID = p_ProdutoID;
+        update Produtos
+        set Estoque = Estoque - p_Quantidade
+        where ProdutoID = p_ProdutoID;
 
-        IF EXISTS (SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'LogVendas') THEN
-            INSERT INTO LogVendas (VendaID, Descricao)
-            VALUES (v_VendaID, CONCAT('Venda realizada para ClienteID: ', p_ClienteID, ', ProdutoID: ', p_ProdutoID, ', Quantidade: ', p_Quantidade));
-        END IF;
-    END IF;
-END;
+        if exists (select 1 from information_schema.tables where table_name = 'LogVendas') then
+            insert into LogVendas (VendaID, Descricao)
+            values (v_VendaID, concat('Venda realizada para ClienteID: ', p_ClienteID, ', ProdutoID: ', p_ProdutoID, ', Quantidade: ', p_Quantidade));
+        end if;
+    end if;
+end;
 
---CALL RealizarVenda(1, 101, 3);  -- Cliente 1 comprando 3 unidades do produto 101
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+--call RealizarVenda(1, 101, 3);  -- Cliente 1 comprando 3 unidades do produto 101
