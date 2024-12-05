@@ -1,0 +1,57 @@
+DROP TABLE IF EXISTS TB_Feedbacks
+DROP TABLE IF EXISTS TB_Inscricoes
+DROP TABLE IF EXISTS TB_Eventos
+DROP TABLE IF EXISTS TB_Usuarios
+DROP TABLE IF EXISTS TB_TipoUsuario
+
+-- Tabelas
+CREATE TABLE TipoUsuario (
+    TipoUsuarioID INTEGER PRIMARY KEY AUTOINCREMENT,
+    TipoUsuario TEXT NOT NULL UNIQUE
+);
+
+CREATE TABLE TB_Usuarios (
+    UsuarioID INTEGER PRIMARY KEY AUTOINCREMENT,
+    Nickname TEXT NOT NULL UNIQUE,
+    Senha TEXT NOT NULL,
+    NomeCompleto TEXT NOT NULL,
+    Email TEXT NOT NULL UNIQUE,
+    TipoUsuarioID INTEGER NOT NULL,
+    Excluido BOOLEAN NOT NULL DEFAULT 0,
+    FOREIGN KEY (TipoUsuarioID) REFERENCES TipoUsuario(TipoUsuarioID)
+);
+
+CREATE TABLE TB_Eventos (
+    EventoID INTEGER PRIMARY KEY AUTOINCREMENT,
+    Titulo TEXT NOT NULL,
+    Descricao TEXT,
+    Data TEXT NOT NULL,  
+    Hora TEXT NOT NULL,  
+    Local TEXT NOT NULL,
+    OrganizadorID INTEGER NOT NULL,
+    Excluido BOOLEAN NOT NULL DEFAULT 0,
+    FOREIGN KEY (OrganizadorID) REFERENCES TB_Usuarios(UsuarioID)
+);
+
+CREATE TABLE TB_Inscricoes (
+    InscricaoID INTEGER PRIMARY KEY AUTOINCREMENT,
+    EventoID INTEGER NOT NULL,
+    ParticipanteID INTEGER NOT NULL,
+    DataInscricao TEXT NOT NULL, 
+    Excluido BOOLEAN NOT NULL DEFAULT 0,
+    UNIQUE (EventoID, ParticipanteID),
+    FOREIGN KEY (EventoID) REFERENCES TB_Eventos(EventoID),
+    FOREIGN KEY (ParticipanteID) REFERENCES TB_Usuarios(UsuarioID)
+);
+
+CREATE TABLE TB_Feedbacks (
+    FeedbackID INTEGER PRIMARY KEY AUTOINCREMENT,
+    EventoID INTEGER NOT NULL,
+    ParticipanteID INTEGER NOT NULL,
+    Nota INTEGER NOT NULL CHECK (Nota BETWEEN 1 AND 5),
+    Comentario TEXT,
+    Excluido BOOLEAN NOT NULL DEFAULT 0,
+    UNIQUE (EventoID, ParticipanteID),
+    FOREIGN KEY (EventoID) REFERENCES TB_Eventos(EventoID),
+    FOREIGN KEY (ParticipanteID) REFERENCES TB_Usuarios(UsuarioID)
+);
